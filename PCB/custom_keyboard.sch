@@ -364,12 +364,12 @@ F 3 "" H 24550 14500 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	24550 14500 24550 13650
-Text GLabel 21750 12550 1    50   Input ~ 0
-COL0
-Text GLabel 24450 12550 1    50   Input ~ 0
-COL17
+Text GLabel 21550 12650 0    50   Input ~ 0
+ROT2_COL
+Text GLabel 24250 12650 0    50   Input ~ 0
+ROT1_COL
 Text GLabel 24850 12650 2    50   Input ~ 0
-ROW0
+ROT1_ROW
 $Comp
 L Device:D_Small D?
 U 1 1 616C8A2D
@@ -382,17 +382,13 @@ F 3 "~" V 24650 12850 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	21750 12550 21750 13050
-Wire Wire Line
-	24450 12550 24450 13050
-Wire Wire Line
 	24650 13050 24650 12950
 Wire Wire Line
 	24650 12750 24650 12650
 Wire Wire Line
 	24650 12650 24850 12650
 Text GLabel 22150 12650 2    50   Input ~ 0
-ROW0
+ROT2_ROW
 $Comp
 L Device:D_Small D?
 U 1 1 616E2049
@@ -1012,24 +1008,6 @@ Wire Notes Line
 	26450 19500 29000 19500
 Text Notes 24000 11300 0    197  ~ 39
 Keyboard Controller
-Text Notes 7500 1300 0    197  ~ 39
-Matrix
-Text Notes 1150 2200 0    118  ~ 24
-Keyboard Matrix
-Text Notes 1300 9300 0    118  ~ 24
-RGB LEDs
-Text GLabel 3200 2800 1    50   Input ~ 0
-COL3
-Text GLabel 3100 2800 1    50   Input ~ 0
-COL2
-Text GLabel 3000 2800 1    50   Input ~ 0
-COL1
-Text GLabel 2900 2800 1    50   Input ~ 0
-COL0
-Text GLabel 4100 2800 1    50   Input ~ 0
-COL12
-Text GLabel 4200 2800 1    50   Input ~ 0
-COL13
 Wire Notes Line
 	20750 21150 25550 21150
 Text GLabel 24350 20250 2    50   Input ~ 0
@@ -1040,51 +1018,886 @@ Text GLabel 24350 20050 2    50   Input ~ 0
 COL16
 Text GLabel 24350 19950 2    50   Input ~ 0
 COL17
-Text GLabel 4300 2800 1    50   Input ~ 0
-COL14
-Text GLabel 4400 2800 1    50   Input ~ 0
-COL15
-Text GLabel 4500 2800 1    50   Input ~ 0
-COL16
-Text GLabel 4600 2800 1    50   Input ~ 0
-COL17
-Text GLabel 4000 2800 1    50   Input ~ 0
-COL11
-Text GLabel 3900 2800 1    50   Input ~ 0
-COL10
-Text GLabel 3800 2800 1    50   Input ~ 0
-COL9
-Text GLabel 3700 2800 1    50   Input ~ 0
-COL8
-Text GLabel 3600 2800 1    50   Input ~ 0
-COL7
-Text GLabel 3500 2800 1    50   Input ~ 0
-COL6
-Text GLabel 3400 2800 1    50   Input ~ 0
-COL5
-Text GLabel 3300 2800 1    50   Input ~ 0
-COL4
+Wire Wire Line
+	21750 13050 21750 12650
+Wire Wire Line
+	21750 12650 21550 12650
+Connection ~ 18650 8050
+Wire Wire Line
+	18650 7950 18650 8050
+Wire Wire Line
+	17550 8050 18650 8050
+Connection ~ 17550 8050
+Wire Wire Line
+	17550 7950 17550 8050
+Wire Wire Line
+	16450 8050 17550 8050
+Connection ~ 16450 8050
+Wire Wire Line
+	16450 7950 16450 8050
+Wire Wire Line
+	15350 8050 16450 8050
+Connection ~ 15350 8050
+Wire Wire Line
+	15350 7950 15350 8050
+Wire Wire Line
+	14250 8050 15350 8050
+Connection ~ 14250 8050
+Wire Wire Line
+	14250 7950 14250 8050
+Wire Wire Line
+	13150 8050 14250 8050
+Connection ~ 13150 8050
+Wire Wire Line
+	13150 7950 13150 8050
+Wire Wire Line
+	12050 8050 13150 8050
+Connection ~ 12050 8050
+Wire Wire Line
+	12050 7950 12050 8050
+Wire Wire Line
+	10950 8050 12050 8050
+Connection ~ 10950 8050
+Wire Wire Line
+	10950 7950 10950 8050
+Wire Wire Line
+	9850 8050 10950 8050
+Connection ~ 9850 8050
+Wire Wire Line
+	9850 7950 9850 8050
+Wire Wire Line
+	8750 8050 9850 8050
+Connection ~ 8750 8050
+Wire Wire Line
+	8750 7950 8750 8050
+Wire Wire Line
+	7650 8050 8750 8050
+Connection ~ 7650 8050
+Wire Wire Line
+	7650 7950 7650 8050
+Wire Wire Line
+	6550 8050 7650 8050
+Connection ~ 6550 8050
+Wire Wire Line
+	6550 7950 6550 8050
+Wire Wire Line
+	5450 8050 6550 8050
+Connection ~ 5450 8050
+Wire Wire Line
+	5450 7950 5450 8050
+Wire Wire Line
+	4300 8050 5450 8050
+Connection ~ 4300 8050
+Wire Wire Line
+	4300 7950 4300 8050
+Wire Wire Line
+	3200 8050 4300 8050
+Connection ~ 3200 8050
+Wire Wire Line
+	3200 7950 3200 8050
+Wire Wire Line
+	18650 8050 19750 8050
+Wire Wire Line
+	19750 8050 20850 8050
+Connection ~ 19750 8050
+Wire Wire Line
+	19750 7950 19750 8050
+Wire Wire Line
+	20250 2900 20250 7650
+Wire Wire Line
+	19150 2900 19150 7650
+Wire Wire Line
+	19750 7650 19650 7650
+Wire Wire Line
+	19750 7750 19750 7650
+Wire Wire Line
+	19150 7650 19250 7650
 $Comp
-L MX_Alps_Hybrid:MX-NoLED MX?
-U 1 1 619A7102
-P 2700 3450
-F 0 "MX?" H 2733 3673 60  0000 C CNN
-F 1 "MX-NoLED" H 2733 3599 20  0000 C CNN
-F 2 "" H 2075 3425 60  0001 C CNN
-F 3 "" H 2075 3425 60  0001 C CNN
-	1    2700 3450
+L CherryMX:CherryMX SW?
+U 1 1 61C4AE65
+P 19450 7650
+F 0 "SW?" H 19450 7935 50  0000 C CNN
+F 1 "CherryMX" H 19450 7844 50  0000 C CNN
+F 2 "" H 19450 7675 50  0001 C CNN
+F 3 "" H 19450 7675 50  0001 C CNN
+	1    19450 7650
 	1    0    0    -1  
 $EndComp
-Text GLabel 1300 3300 0    50   Input ~ 0
-ROW0
-Text GLabel 1300 3400 0    50   Input ~ 0
-ROW1
-Text GLabel 1300 3500 0    50   Input ~ 0
-ROW2
-Text GLabel 1300 3600 0    50   Input ~ 0
-ROW3
-Text GLabel 1300 3800 0    50   Input ~ 0
-ROW5
-Text GLabel 1300 3700 0    50   Input ~ 0
+$Comp
+L Device:D_Small D?
+U 1 1 61C4AE5F
+P 19750 7850
+F 0 "D?" V 19796 7780 50  0000 R CNN
+F 1 "SOD-123" V 19705 7780 50  0000 R CNN
+F 2 "" V 19750 7850 50  0001 C CNN
+F 3 "~" V 19750 7850 50  0001 C CNN
+	1    19750 7850
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	18050 2900 18050 7650
+Wire Wire Line
+	18650 7650 18550 7650
+Wire Wire Line
+	18650 7750 18650 7650
+Wire Wire Line
+	18050 7650 18150 7650
+$Comp
+L CherryMX:CherryMX SW?
+U 1 1 61C3C80C
+P 18350 7650
+F 0 "SW?" H 18350 7935 50  0000 C CNN
+F 1 "CherryMX" H 18350 7844 50  0000 C CNN
+F 2 "" H 18350 7675 50  0001 C CNN
+F 3 "" H 18350 7675 50  0001 C CNN
+	1    18350 7650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D?
+U 1 1 61C3C806
+P 18650 7850
+F 0 "D?" V 18696 7780 50  0000 R CNN
+F 1 "SOD-123" V 18605 7780 50  0000 R CNN
+F 2 "" V 18650 7850 50  0001 C CNN
+F 3 "~" V 18650 7850 50  0001 C CNN
+	1    18650 7850
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	16950 2900 16950 7650
+Wire Wire Line
+	17550 7650 17450 7650
+Wire Wire Line
+	17550 7750 17550 7650
+Wire Wire Line
+	16950 7650 17050 7650
+$Comp
+L CherryMX:CherryMX SW?
+U 1 1 61C2E9F2
+P 17250 7650
+F 0 "SW?" H 17250 7935 50  0000 C CNN
+F 1 "CherryMX" H 17250 7844 50  0000 C CNN
+F 2 "" H 17250 7675 50  0001 C CNN
+F 3 "" H 17250 7675 50  0001 C CNN
+	1    17250 7650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D?
+U 1 1 61C2E9EC
+P 17550 7850
+F 0 "D?" V 17596 7780 50  0000 R CNN
+F 1 "SOD-123" V 17505 7780 50  0000 R CNN
+F 2 "" V 17550 7850 50  0001 C CNN
+F 3 "~" V 17550 7850 50  0001 C CNN
+	1    17550 7850
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	15850 2900 15850 7650
+Wire Wire Line
+	16450 7650 16350 7650
+Wire Wire Line
+	16450 7750 16450 7650
+Wire Wire Line
+	15850 7650 15950 7650
+$Comp
+L CherryMX:CherryMX SW?
+U 1 1 61C2153A
+P 16150 7650
+F 0 "SW?" H 16150 7935 50  0000 C CNN
+F 1 "CherryMX" H 16150 7844 50  0000 C CNN
+F 2 "" H 16150 7675 50  0001 C CNN
+F 3 "" H 16150 7675 50  0001 C CNN
+	1    16150 7650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D?
+U 1 1 61C21534
+P 16450 7850
+F 0 "D?" V 16496 7780 50  0000 R CNN
+F 1 "SOD-123" V 16405 7780 50  0000 R CNN
+F 2 "" V 16450 7850 50  0001 C CNN
+F 3 "~" V 16450 7850 50  0001 C CNN
+	1    16450 7850
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	14750 2900 14750 7650
+Wire Wire Line
+	15350 7650 15250 7650
+Wire Wire Line
+	15350 7750 15350 7650
+Wire Wire Line
+	14750 7650 14850 7650
+$Comp
+L CherryMX:CherryMX SW?
+U 1 1 61C14A99
+P 15050 7650
+F 0 "SW?" H 15050 7935 50  0000 C CNN
+F 1 "CherryMX" H 15050 7844 50  0000 C CNN
+F 2 "" H 15050 7675 50  0001 C CNN
+F 3 "" H 15050 7675 50  0001 C CNN
+	1    15050 7650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D?
+U 1 1 61C14A93
+P 15350 7850
+F 0 "D?" V 15396 7780 50  0000 R CNN
+F 1 "SOD-123" V 15305 7780 50  0000 R CNN
+F 2 "" V 15350 7850 50  0001 C CNN
+F 3 "~" V 15350 7850 50  0001 C CNN
+	1    15350 7850
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	13650 2900 13650 7650
+Wire Wire Line
+	14250 7650 14150 7650
+Wire Wire Line
+	14250 7750 14250 7650
+Wire Wire Line
+	13650 7650 13750 7650
+$Comp
+L CherryMX:CherryMX SW?
+U 1 1 61C08531
+P 13950 7650
+F 0 "SW?" H 13950 7935 50  0000 C CNN
+F 1 "CherryMX" H 13950 7844 50  0000 C CNN
+F 2 "" H 13950 7675 50  0001 C CNN
+F 3 "" H 13950 7675 50  0001 C CNN
+	1    13950 7650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D?
+U 1 1 61C0852B
+P 14250 7850
+F 0 "D?" V 14296 7780 50  0000 R CNN
+F 1 "SOD-123" V 14205 7780 50  0000 R CNN
+F 2 "" V 14250 7850 50  0001 C CNN
+F 3 "~" V 14250 7850 50  0001 C CNN
+	1    14250 7850
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	12550 2900 12550 7650
+Wire Wire Line
+	13150 7650 13050 7650
+Wire Wire Line
+	13150 7750 13150 7650
+Wire Wire Line
+	12550 7650 12650 7650
+$Comp
+L CherryMX:CherryMX SW?
+U 1 1 61BFCBFB
+P 12850 7650
+F 0 "SW?" H 12850 7935 50  0000 C CNN
+F 1 "CherryMX" H 12850 7844 50  0000 C CNN
+F 2 "" H 12850 7675 50  0001 C CNN
+F 3 "" H 12850 7675 50  0001 C CNN
+	1    12850 7650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D?
+U 1 1 61BFCBF5
+P 13150 7850
+F 0 "D?" V 13196 7780 50  0000 R CNN
+F 1 "SOD-123" V 13105 7780 50  0000 R CNN
+F 2 "" V 13150 7850 50  0001 C CNN
+F 3 "~" V 13150 7850 50  0001 C CNN
+	1    13150 7850
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	11450 2900 11450 7650
+Wire Wire Line
+	12050 7650 11950 7650
+Wire Wire Line
+	12050 7750 12050 7650
+Wire Wire Line
+	11450 7650 11550 7650
+$Comp
+L CherryMX:CherryMX SW?
+U 1 1 61BF19D8
+P 11750 7650
+F 0 "SW?" H 11750 7935 50  0000 C CNN
+F 1 "CherryMX" H 11750 7844 50  0000 C CNN
+F 2 "" H 11750 7675 50  0001 C CNN
+F 3 "" H 11750 7675 50  0001 C CNN
+	1    11750 7650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D?
+U 1 1 61BF19D2
+P 12050 7850
+F 0 "D?" V 12096 7780 50  0000 R CNN
+F 1 "SOD-123" V 12005 7780 50  0000 R CNN
+F 2 "" V 12050 7850 50  0001 C CNN
+F 3 "~" V 12050 7850 50  0001 C CNN
+	1    12050 7850
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	10350 2900 10350 7650
+Wire Wire Line
+	10950 7650 10850 7650
+Wire Wire Line
+	10950 7750 10950 7650
+Wire Wire Line
+	10350 7650 10450 7650
+$Comp
+L CherryMX:CherryMX SW?
+U 1 1 61BE70A1
+P 10650 7650
+F 0 "SW?" H 10650 7935 50  0000 C CNN
+F 1 "CherryMX" H 10650 7844 50  0000 C CNN
+F 2 "" H 10650 7675 50  0001 C CNN
+F 3 "" H 10650 7675 50  0001 C CNN
+	1    10650 7650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D?
+U 1 1 61BE709B
+P 10950 7850
+F 0 "D?" V 10996 7780 50  0000 R CNN
+F 1 "SOD-123" V 10905 7780 50  0000 R CNN
+F 2 "" V 10950 7850 50  0001 C CNN
+F 3 "~" V 10950 7850 50  0001 C CNN
+	1    10950 7850
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	9250 2900 9250 7650
+Wire Wire Line
+	9850 7650 9750 7650
+Wire Wire Line
+	9850 7750 9850 7650
+Wire Wire Line
+	9250 7650 9350 7650
+$Comp
+L CherryMX:CherryMX SW?
+U 1 1 61BDCC66
+P 9550 7650
+F 0 "SW?" H 9550 7935 50  0000 C CNN
+F 1 "CherryMX" H 9550 7844 50  0000 C CNN
+F 2 "" H 9550 7675 50  0001 C CNN
+F 3 "" H 9550 7675 50  0001 C CNN
+	1    9550 7650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D?
+U 1 1 61BDCC60
+P 9850 7850
+F 0 "D?" V 9896 7780 50  0000 R CNN
+F 1 "SOD-123" V 9805 7780 50  0000 R CNN
+F 2 "" V 9850 7850 50  0001 C CNN
+F 3 "~" V 9850 7850 50  0001 C CNN
+	1    9850 7850
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	8150 2900 8150 7650
+Wire Wire Line
+	8750 7650 8650 7650
+Wire Wire Line
+	8750 7750 8750 7650
+Wire Wire Line
+	8150 7650 8250 7650
+$Comp
+L CherryMX:CherryMX SW?
+U 1 1 61BD2E4C
+P 8450 7650
+F 0 "SW?" H 8450 7935 50  0000 C CNN
+F 1 "CherryMX" H 8450 7844 50  0000 C CNN
+F 2 "" H 8450 7675 50  0001 C CNN
+F 3 "" H 8450 7675 50  0001 C CNN
+	1    8450 7650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D?
+U 1 1 61BD2E46
+P 8750 7850
+F 0 "D?" V 8796 7780 50  0000 R CNN
+F 1 "SOD-123" V 8705 7780 50  0000 R CNN
+F 2 "" V 8750 7850 50  0001 C CNN
+F 3 "~" V 8750 7850 50  0001 C CNN
+	1    8750 7850
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7050 2900 7050 7650
+Wire Wire Line
+	7650 7650 7550 7650
+Wire Wire Line
+	7650 7750 7650 7650
+Wire Wire Line
+	7050 7650 7150 7650
+$Comp
+L CherryMX:CherryMX SW?
+U 1 1 61BBF45F
+P 7350 7650
+F 0 "SW?" H 7350 7935 50  0000 C CNN
+F 1 "CherryMX" H 7350 7844 50  0000 C CNN
+F 2 "" H 7350 7675 50  0001 C CNN
+F 3 "" H 7350 7675 50  0001 C CNN
+	1    7350 7650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D?
+U 1 1 61BBF459
+P 7650 7850
+F 0 "D?" V 7696 7780 50  0000 R CNN
+F 1 "SOD-123" V 7605 7780 50  0000 R CNN
+F 2 "" V 7650 7850 50  0001 C CNN
+F 3 "~" V 7650 7850 50  0001 C CNN
+	1    7650 7850
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5950 2900 5950 7650
+Wire Wire Line
+	6550 7650 6450 7650
+Wire Wire Line
+	6550 7750 6550 7650
+Wire Wire Line
+	5950 7650 6050 7650
+$Comp
+L CherryMX:CherryMX SW?
+U 1 1 61BB6590
+P 6250 7650
+F 0 "SW?" H 6250 7935 50  0000 C CNN
+F 1 "CherryMX" H 6250 7844 50  0000 C CNN
+F 2 "" H 6250 7675 50  0001 C CNN
+F 3 "" H 6250 7675 50  0001 C CNN
+	1    6250 7650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D?
+U 1 1 61BB658A
+P 6550 7850
+F 0 "D?" V 6596 7780 50  0000 R CNN
+F 1 "SOD-123" V 6505 7780 50  0000 R CNN
+F 2 "" V 6550 7850 50  0001 C CNN
+F 3 "~" V 6550 7850 50  0001 C CNN
+	1    6550 7850
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4850 2900 4850 7650
+Wire Wire Line
+	5450 7650 5350 7650
+Wire Wire Line
+	5450 7750 5450 7650
+Wire Wire Line
+	4850 7650 4950 7650
+$Comp
+L CherryMX:CherryMX SW?
+U 1 1 61BADD54
+P 5150 7650
+F 0 "SW?" H 5150 7935 50  0000 C CNN
+F 1 "CherryMX" H 5150 7844 50  0000 C CNN
+F 2 "" H 5150 7675 50  0001 C CNN
+F 3 "" H 5150 7675 50  0001 C CNN
+	1    5150 7650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D?
+U 1 1 61BADD4E
+P 5450 7850
+F 0 "D?" V 5496 7780 50  0000 R CNN
+F 1 "SOD-123" V 5405 7780 50  0000 R CNN
+F 2 "" V 5450 7850 50  0001 C CNN
+F 3 "~" V 5450 7850 50  0001 C CNN
+	1    5450 7850
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3700 2900 3700 7650
+Wire Wire Line
+	4300 7650 4200 7650
+Wire Wire Line
+	4300 7750 4300 7650
+Wire Wire Line
+	3700 7650 3800 7650
+$Comp
+L CherryMX:CherryMX SW?
+U 1 1 61B9E112
+P 4000 7650
+F 0 "SW?" H 4000 7935 50  0000 C CNN
+F 1 "CherryMX" H 4000 7844 50  0000 C CNN
+F 2 "" H 4000 7675 50  0001 C CNN
+F 3 "" H 4000 7675 50  0001 C CNN
+	1    4000 7650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D?
+U 1 1 61B9E10C
+P 4300 7850
+F 0 "D?" V 4346 7780 50  0000 R CNN
+F 1 "SOD-123" V 4255 7780 50  0000 R CNN
+F 2 "" V 4300 7850 50  0001 C CNN
+F 3 "~" V 4300 7850 50  0001 C CNN
+	1    4300 7850
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2600 2900 2600 7650
+Wire Wire Line
+	3200 7650 3100 7650
+Wire Wire Line
+	3200 7750 3200 7650
+Wire Wire Line
+	2600 7650 2700 7650
+$Comp
+L CherryMX:CherryMX SW?
+U 1 1 61B95E48
+P 2900 7650
+F 0 "SW?" H 2900 7935 50  0000 C CNN
+F 1 "CherryMX" H 2900 7844 50  0000 C CNN
+F 2 "" H 2900 7675 50  0001 C CNN
+F 3 "" H 2900 7675 50  0001 C CNN
+	1    2900 7650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D?
+U 1 1 61B95E42
+P 3200 7850
+F 0 "D?" V 3246 7780 50  0000 R CNN
+F 1 "SOD-123" V 3155 7780 50  0000 R CNN
+F 2 "" V 3200 7850 50  0001 C CNN
+F 3 "~" V 3200 7850 50  0001 C CNN
+	1    3200 7850
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	20850 7650 20750 7650
+Wire Wire Line
+	20850 7750 20850 7650
+Wire Wire Line
+	20850 7950 20850 8050
+Wire Wire Line
+	20250 7650 20350 7650
+$Comp
+L CherryMX:CherryMX SW?
+U 1 1 61B79B24
+P 20550 7650
+F 0 "SW?" H 20550 7935 50  0000 C CNN
+F 1 "CherryMX" H 20550 7844 50  0000 C CNN
+F 2 "" H 20550 7675 50  0001 C CNN
+F 3 "" H 20550 7675 50  0001 C CNN
+	1    20550 7650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D?
+U 1 1 61B79B1E
+P 20850 7850
+F 0 "D?" V 20896 7780 50  0000 R CNN
+F 1 "SOD-123" V 20805 7780 50  0000 R CNN
+F 2 "" V 20850 7850 50  0001 C CNN
+F 3 "~" V 20850 7850 50  0001 C CNN
+	1    20850 7850
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2150 2800 2050 2800
+Wire Wire Line
+	2150 2900 2150 2800
+$Comp
+L CherryMX:CherryMX SW?
+U 1 1 61B09ED8
+P 1850 2800
+F 0 "SW?" H 1850 3085 50  0000 C CNN
+F 1 "CherryMX" H 1850 2994 50  0000 C CNN
+F 2 "" H 1850 2825 50  0001 C CNN
+F 3 "" H 1850 2825 50  0001 C CNN
+	1    1850 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D?
+U 1 1 61B09ED2
+P 2150 3000
+F 0 "D?" V 2196 2930 50  0000 R CNN
+F 1 "SOD-123" V 2105 2930 50  0000 R CNN
+F 2 "" V 2150 3000 50  0001 C CNN
+F 3 "~" V 2150 3000 50  0001 C CNN
+	1    2150 3000
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2100 4750 2100 4850
+Wire Wire Line
+	2100 6850 2000 6850
+Wire Wire Line
+	2100 6950 2100 6850
+$Comp
+L CherryMX:CherryMX SW?
+U 1 1 61B00FD2
+P 1800 6850
+F 0 "SW?" H 1800 7135 50  0000 C CNN
+F 1 "CherryMX" H 1800 7044 50  0000 C CNN
+F 2 "" H 1800 6875 50  0001 C CNN
+F 3 "" H 1800 6875 50  0001 C CNN
+	1    1800 6850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D?
+U 1 1 61B00FCC
+P 2100 7050
+F 0 "D?" V 2146 6980 50  0000 R CNN
+F 1 "SOD-123" V 2055 6980 50  0000 R CNN
+F 2 "" V 2100 7050 50  0001 C CNN
+F 3 "~" V 2100 7050 50  0001 C CNN
+	1    2100 7050
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2100 6050 2000 6050
+Wire Wire Line
+	2100 6150 2100 6050
+$Comp
+L CherryMX:CherryMX SW?
+U 1 1 61AFA3A6
+P 1800 6050
+F 0 "SW?" H 1800 6335 50  0000 C CNN
+F 1 "CherryMX" H 1800 6244 50  0000 C CNN
+F 2 "" H 1800 6075 50  0001 C CNN
+F 3 "" H 1800 6075 50  0001 C CNN
+	1    1800 6050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D?
+U 1 1 61AFA3A0
+P 2100 6250
+F 0 "D?" V 2146 6180 50  0000 R CNN
+F 1 "SOD-123" V 2055 6180 50  0000 R CNN
+F 2 "" V 2100 6250 50  0001 C CNN
+F 3 "~" V 2100 6250 50  0001 C CNN
+	1    2100 6250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2100 5250 2000 5250
+Wire Wire Line
+	2100 5350 2100 5250
+$Comp
+L CherryMX:CherryMX SW?
+U 1 1 61AF3897
+P 1800 5250
+F 0 "SW?" H 1800 5535 50  0000 C CNN
+F 1 "CherryMX" H 1800 5444 50  0000 C CNN
+F 2 "" H 1800 5275 50  0001 C CNN
+F 3 "" H 1800 5275 50  0001 C CNN
+	1    1800 5250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D?
+U 1 1 61AF3891
+P 2100 5450
+F 0 "D?" V 2146 5380 50  0000 R CNN
+F 1 "SOD-123" V 2055 5380 50  0000 R CNN
+F 2 "" V 2100 5450 50  0001 C CNN
+F 3 "~" V 2100 5450 50  0001 C CNN
+	1    2100 5450
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2100 7650 2000 7650
+Wire Wire Line
+	2100 7750 2100 7650
+Wire Wire Line
+	2100 8050 3200 8050
+Wire Wire Line
+	1300 8050 2100 8050
+Connection ~ 2100 8050
+Wire Wire Line
+	2100 7950 2100 8050
+Wire Wire Line
+	1500 7650 1600 7650
+$Comp
+L CherryMX:CherryMX SW?
+U 1 1 61ACE2BA
+P 1800 7650
+F 0 "SW?" H 1800 7935 50  0000 C CNN
+F 1 "CherryMX" H 1800 7844 50  0000 C CNN
+F 2 "" H 1800 7675 50  0001 C CNN
+F 3 "" H 1800 7675 50  0001 C CNN
+	1    1800 7650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D?
+U 1 1 61ACE2B4
+P 2100 7850
+F 0 "D?" V 2146 7780 50  0000 R CNN
+F 1 "SOD-123" V 2055 7780 50  0000 R CNN
+F 2 "" V 2100 7850 50  0001 C CNN
+F 3 "~" V 2100 7850 50  0001 C CNN
+	1    2100 7850
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3800 7250 2100 7250
+Wire Wire Line
+	3800 6450 2100 6450
+Wire Wire Line
+	3850 5650 2100 5650
+Wire Wire Line
+	2100 4050 3900 4050
+Wire Wire Line
+	2100 3850 2100 4050
+Wire Wire Line
+	1500 3600 1600 3600
+Text GLabel 2100 3850 1    50   Input ~ 0
+ROT2_ROW
+Text GLabel 1600 3600 2    50   Input ~ 0
+ROT2_COL
+Connection ~ 2100 4050
+Wire Wire Line
+	1300 4050 2100 4050
+Connection ~ 1500 3600
+Wire Wire Line
+	1500 2900 1500 3600
+Wire Wire Line
+	2100 4450 2000 4450
+Wire Wire Line
+	2100 4550 2100 4450
+Wire Wire Line
+	1500 4450 1500 5250
+Wire Wire Line
+	1500 3600 1500 4450
+Connection ~ 1500 4450
+Wire Wire Line
+	1500 4450 1600 4450
+$Comp
+L CherryMX:CherryMX SW?
+U 1 1 61A8200F
+P 1800 4450
+F 0 "SW?" H 1800 4735 50  0000 C CNN
+F 1 "CherryMX" H 1800 4644 50  0000 C CNN
+F 2 "" H 1800 4475 50  0001 C CNN
+F 3 "" H 1800 4475 50  0001 C CNN
+	1    1800 4450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D?
+U 1 1 61A82009
+P 2100 4650
+F 0 "D?" V 2146 4580 50  0000 R CNN
+F 1 "SOD-123" V 2055 4580 50  0000 R CNN
+F 2 "" V 2100 4650 50  0001 C CNN
+F 3 "~" V 2100 4650 50  0001 C CNN
+	1    2100 4650
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3900 4850 1300 4850
+Text GLabel 1300 7250 0    50   Input ~ 0
 ROW4
+Text GLabel 1300 8050 0    50   Input ~ 0
+ROW5
+Text GLabel 1300 6450 0    50   Input ~ 0
+ROW3
+Text GLabel 1300 5650 0    50   Input ~ 0
+ROW2
+Text GLabel 1300 4850 0    50   Input ~ 0
+ROW1
+Text GLabel 1300 4050 0    50   Input ~ 0
+ROW0
+Text GLabel 5950 2900 1    50   Input ~ 0
+COL4
+Text GLabel 7050 2900 1    50   Input ~ 0
+COL5
+Text GLabel 8150 2900 1    50   Input ~ 0
+COL6
+Text GLabel 9250 2900 1    50   Input ~ 0
+COL7
+Text GLabel 10350 2900 1    50   Input ~ 0
+COL8
+Text GLabel 11450 2900 1    50   Input ~ 0
+COL9
+Text GLabel 12550 2900 1    50   Input ~ 0
+COL10
+Text GLabel 13650 2900 1    50   Input ~ 0
+COL11
+Text GLabel 20250 2900 1    50   Input ~ 0
+COL17
+Text GLabel 19150 2900 1    50   Input ~ 0
+COL16
+Text GLabel 18050 2900 1    50   Input ~ 0
+COL15
+Text GLabel 16950 2900 1    50   Input ~ 0
+COL14
+Text GLabel 15850 2900 1    50   Input ~ 0
+COL13
+Text GLabel 14750 2900 1    50   Input ~ 0
+COL12
+Text GLabel 1500 2900 1    50   Input ~ 0
+COL0
+Text GLabel 2600 2900 1    50   Input ~ 0
+COL1
+Text GLabel 3700 2900 1    50   Input ~ 0
+COL2
+Text GLabel 4850 2900 1    50   Input ~ 0
+COL3
+Text Notes 1300 9300 0    118  ~ 24
+RGB LEDs
+Text Notes 1350 1500 0    118  ~ 24
+Keyboard Matrix
+Text Notes 7500 1300 0    197  ~ 39
+Matrix
+Wire Wire Line
+	1600 6850 1500 6850
+Connection ~ 1500 6850
+Wire Wire Line
+	1500 6850 1500 7650
+Wire Wire Line
+	1600 6050 1500 6050
+Connection ~ 1500 6050
+Wire Wire Line
+	1500 6050 1500 6850
+Wire Wire Line
+	1600 5250 1500 5250
+Connection ~ 1500 5250
+Wire Wire Line
+	1500 5250 1500 6050
+Wire Wire Line
+	2100 5550 2100 5650
+Connection ~ 2100 5650
+Wire Wire Line
+	2100 5650 1300 5650
+Wire Wire Line
+	2100 6350 2100 6450
+Connection ~ 2100 6450
+Wire Wire Line
+	2100 6450 1300 6450
+Wire Wire Line
+	2100 7150 2100 7250
+Connection ~ 2100 7250
+Wire Wire Line
+	2100 7250 1300 7250
+Wire Wire Line
+	24450 13050 24450 12650
+Wire Wire Line
+	24450 12650 24250 12650
 $EndSCHEMATC
