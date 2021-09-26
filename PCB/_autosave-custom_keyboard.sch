@@ -364,8 +364,8 @@ F 3 "" H 24550 14500 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	24550 14500 24550 13650
-Text GLabel 21750 12550 1    50   Input ~ 0
-COL0
+Text GLabel 21550 12650 0    50   Input ~ 0
+ROT2_COL
 Text GLabel 24450 12550 1    50   Input ~ 0
 COL17
 Text GLabel 24850 12650 2    50   Input ~ 0
@@ -382,8 +382,6 @@ F 3 "~" V 24650 12850 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	21750 12550 21750 13050
-Wire Wire Line
 	24450 12550 24450 13050
 Wire Wire Line
 	24650 13050 24650 12950
@@ -392,7 +390,7 @@ Wire Wire Line
 Wire Wire Line
 	24650 12650 24850 12650
 Text GLabel 22150 12650 2    50   Input ~ 0
-ROW0
+ROT2_ROW
 $Comp
 L Device:D_Small D?
 U 1 1 616E2049
@@ -1018,17 +1016,17 @@ Text Notes 1150 2200 0    118  ~ 24
 Keyboard Matrix
 Text Notes 1300 9300 0    118  ~ 24
 RGB LEDs
-Text GLabel 3200 2800 1    50   Input ~ 0
+Text GLabel 2800 2900 1    50   Input ~ 0
 COL3
-Text GLabel 3100 2800 1    50   Input ~ 0
+Text GLabel 2700 2900 1    50   Input ~ 0
 COL2
-Text GLabel 3000 2800 1    50   Input ~ 0
+Text GLabel 2600 2900 1    50   Input ~ 0
 COL1
-Text GLabel 2900 2800 1    50   Input ~ 0
+Text GLabel 1500 2900 1    50   Input ~ 0
 COL0
-Text GLabel 4100 2800 1    50   Input ~ 0
+Text GLabel 3700 2900 1    50   Input ~ 0
 COL12
-Text GLabel 4200 2800 1    50   Input ~ 0
+Text GLabel 3800 2900 1    50   Input ~ 0
 COL13
 Wire Notes Line
 	20750 21150 25550 21150
@@ -1040,51 +1038,128 @@ Text GLabel 24350 20050 2    50   Input ~ 0
 COL16
 Text GLabel 24350 19950 2    50   Input ~ 0
 COL17
-Text GLabel 4300 2800 1    50   Input ~ 0
+Text GLabel 3900 2900 1    50   Input ~ 0
 COL14
-Text GLabel 4400 2800 1    50   Input ~ 0
+Text GLabel 4000 2900 1    50   Input ~ 0
 COL15
-Text GLabel 4500 2800 1    50   Input ~ 0
+Text GLabel 4100 2900 1    50   Input ~ 0
 COL16
-Text GLabel 4600 2800 1    50   Input ~ 0
+Text GLabel 4200 2900 1    50   Input ~ 0
 COL17
-Text GLabel 4000 2800 1    50   Input ~ 0
+Text GLabel 3600 2900 1    50   Input ~ 0
 COL11
-Text GLabel 3900 2800 1    50   Input ~ 0
+Text GLabel 3500 2900 1    50   Input ~ 0
 COL10
-Text GLabel 3800 2800 1    50   Input ~ 0
+Text GLabel 3400 2900 1    50   Input ~ 0
 COL9
-Text GLabel 3700 2800 1    50   Input ~ 0
+Text GLabel 3300 2900 1    50   Input ~ 0
 COL8
-Text GLabel 3600 2800 1    50   Input ~ 0
+Text GLabel 3200 2900 1    50   Input ~ 0
 COL7
-Text GLabel 3500 2800 1    50   Input ~ 0
+Text GLabel 3100 2900 1    50   Input ~ 0
 COL6
-Text GLabel 3400 2800 1    50   Input ~ 0
+Text GLabel 3000 2900 1    50   Input ~ 0
 COL5
-Text GLabel 3300 2800 1    50   Input ~ 0
+Text GLabel 2900 2900 1    50   Input ~ 0
 COL4
+Text GLabel 1300 4050 0    50   Input ~ 0
+ROW0
+Text GLabel 1300 4850 0    50   Input ~ 0
+ROW1
+Text GLabel 1300 5650 0    50   Input ~ 0
+ROW2
+Text GLabel 1300 6450 0    50   Input ~ 0
+ROW3
+Text GLabel 1300 8050 0    50   Input ~ 0
+ROW5
+Text GLabel 1300 7250 0    50   Input ~ 0
+ROW4
+Wire Wire Line
+	2600 5750 2600 2900
+Wire Wire Line
+	3900 4850 1300 4850
 $Comp
-L MX_Alps_Hybrid:MX-NoLED MX?
-U 1 1 619A7102
-P 2700 3450
-F 0 "MX?" H 2733 3673 60  0000 C CNN
-F 1 "MX-NoLED" H 2733 3599 20  0000 C CNN
-F 2 "" H 2075 3425 60  0001 C CNN
-F 3 "" H 2075 3425 60  0001 C CNN
-	1    2700 3450
+L Device:D_Small D?
+U 1 1 61A82009
+P 2100 4650
+F 0 "D?" V 2146 4580 50  0000 R CNN
+F 1 "SOD-123" V 2055 4580 50  0000 R CNN
+F 2 "" V 2100 4650 50  0001 C CNN
+F 3 "~" V 2100 4650 50  0001 C CNN
+	1    2100 4650
+	0    -1   -1   0   
+$EndComp
+$Comp
+L CherryMX:CherryMX SW?
+U 1 1 61A8200F
+P 1800 4450
+F 0 "SW?" H 1800 4735 50  0000 C CNN
+F 1 "CherryMX" H 1800 4644 50  0000 C CNN
+F 2 "" H 1800 4475 50  0001 C CNN
+F 3 "" H 1800 4475 50  0001 C CNN
+	1    1800 4450
 	1    0    0    -1  
 $EndComp
-Text GLabel 1300 3300 0    50   Input ~ 0
-ROW0
-Text GLabel 1300 3400 0    50   Input ~ 0
-ROW1
-Text GLabel 1300 3500 0    50   Input ~ 0
-ROW2
-Text GLabel 1300 3600 0    50   Input ~ 0
-ROW3
-Text GLabel 1300 3800 0    50   Input ~ 0
-ROW5
-Text GLabel 1300 3700 0    50   Input ~ 0
-ROW4
+Wire Wire Line
+	1500 4450 1600 4450
+Wire Wire Line
+	2100 4750 2100 4850
+Wire Wire Line
+	2100 4550 2100 4450
+Wire Wire Line
+	2100 4450 2000 4450
+$Comp
+L Device:D_Small D?
+U 1 1 61A87861
+P 3200 3850
+F 0 "D?" V 3246 3780 50  0000 R CNN
+F 1 "SOD-123" V 3155 3780 50  0000 R CNN
+F 2 "" V 3200 3850 50  0001 C CNN
+F 3 "~" V 3200 3850 50  0001 C CNN
+	1    3200 3850
+	0    -1   -1   0   
+$EndComp
+$Comp
+L CherryMX:CherryMX SW?
+U 1 1 61A87867
+P 2900 3650
+F 0 "SW?" H 2900 3935 50  0000 C CNN
+F 1 "CherryMX" H 2900 3844 50  0000 C CNN
+F 2 "" H 2900 3675 50  0001 C CNN
+F 3 "" H 2900 3675 50  0001 C CNN
+	1    2900 3650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2600 3650 2700 3650
+Wire Wire Line
+	3200 3950 3200 4050
+Wire Wire Line
+	3200 3750 3200 3650
+Wire Wire Line
+	3200 3650 3100 3650
+Wire Wire Line
+	1500 2900 1500 3600
+Wire Wire Line
+	1300 4050 2100 4050
+Wire Wire Line
+	21750 13050 21750 12650
+Wire Wire Line
+	21750 12650 21550 12650
+Text GLabel 1600 3600 2    50   Input ~ 0
+ROT2_COL
+Text GLabel 2100 3850 1    50   Input ~ 0
+ROT2_ROW
+Wire Wire Line
+	1500 3600 1600 3600
+Wire Wire Line
+	1500 4300 1500 4450
+Wire Wire Line
+	2100 3850 2100 4050
+Connection ~ 2100 4050
+Wire Wire Line
+	2100 4050 3900 4050
+Connection ~ 1500 4450
+Wire Wire Line
+	1500 4450 1500 6450
 $EndSCHEMATC
