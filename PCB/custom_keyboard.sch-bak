@@ -451,17 +451,17 @@ F 3 "" H 25100 10850 50  0001 C CNN
 	1    25100 10850
 	1    0    0    -1  
 $EndComp
-Text GLabel 25100 11950 0    50   Input ~ 0
+Text GLabel 27350 9650 2    50   Input ~ 0
 ROW0
-Text GLabel 25100 11850 0    50   Input ~ 0
+Text GLabel 27350 9750 2    50   Input ~ 0
 ROW1
-Text GLabel 25100 11750 0    50   Input ~ 0
+Text GLabel 27350 9850 2    50   Input ~ 0
 ROW2
-Text GLabel 25100 11650 0    50   Input ~ 0
+Text GLabel 27350 9950 2    50   Input ~ 0
 ROW3
-Text GLabel 25100 11550 0    50   Input ~ 0
+Text GLabel 27350 10050 2    50   Input ~ 0
 ROW4
-Text GLabel 25100 11450 0    50   Input ~ 0
+Text GLabel 27350 10150 2    50   Input ~ 0
 ROW5
 Text GLabel 27350 8750 2    50   Input ~ 0
 BKL_DATA_IN
@@ -584,12 +584,4 @@ Wire Wire Line
 	25100 10850 25100 10750
 Wire Wire Line
 	25100 10750 25300 10750
-Text GLabel 27350 9650 2    50   Input ~ 0
-SS
-Text GLabel 27350 9750 2    50   Input ~ 0
-SCLK
-Text GLabel 27350 9850 2    50   Input ~ 0
-MOSI
-Text GLabel 27350 9950 2    50   Input ~ 0
-MISO
 $EndSCHEMATC

@@ -7,3 +7,12 @@
 [submodule "PCB/Type-C.pretty"]
 	path = PCB/Type-C.pretty
 	url = https://github.com/ai03-2725/Type-C.pretty
+[submodule "PCB/WS2812B.pretty"]
+	path = PCB/WS2812B.pretty
+	url = https://github.com/ai03-2725/WS2812B.pretty
+[submodule "PCB/kicad-libraries"]
+	path = PCB/kicad-libraries
+	url = https://github.com/sszczep/kicad-libraries
+[submodule "PCB/kbd"]
+	path = PCB/kbd
+	url = https://github.com/foostan/kbd
