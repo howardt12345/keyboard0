@@ -5,4 +5,5 @@
   (lib (name ws2812b)(type Legacy)(uri ${KIPRJMOD}/WS2812B.pretty/Schematic-Symbol/ws2812b.lib)(options "")(descr ""))
   (lib (name CherryMX)(type Legacy)(uri ${KIPRJMOD}/kicad-libraries/symbols/CherryMX.lib)(options "")(descr ""))
   (lib (name kbd)(type Legacy)(uri ${KIPRJMOD}/kbd/kicad-symbols/kbd.lib)(options "")(descr ""))
+  (lib (name MyConnectors)(type Legacy)(uri ${KIPRJMOD}/KiCADComponents/MyConnectors.lib)(options "")(descr ""))
 )

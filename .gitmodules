@@ -16,3 +16,6 @@
 [submodule "PCB/kbd"]
 	path = PCB/kbd
 	url = https://github.com/foostan/kbd
+[submodule "PCB/KiCADComponents"]
+	path = PCB/KiCADComponents
+	url = https://github.com/takigama/KiCADComponents
