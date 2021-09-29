@@ -3446,11 +3446,11 @@ Text Notes 15200 3550 0    315  ~ 0
 8
 Text Notes 13900 3550 0    315  ~ 0
 7
-Text Notes 12350 3550 0    315  ~ 0
+Text Notes 12400 3550 0    315  ~ 0
 6
 Text Notes 11000 3550 0    315  ~ 0
 5
-Text Notes 9550 3550 0    315  ~ 0
+Text Notes 9600 3550 0    315  ~ 0
 4
 Text Notes 8300 3550 0    315  ~ 0
 3
