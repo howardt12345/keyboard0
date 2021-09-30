@@ -5,5 +5,5 @@
   (lib (name random-keyboard-parts)(type KiCad)(uri ${KIPRJMOD}/random-keyboard-parts.pretty)(options "")(descr ""))
   (lib (name CherryMX_PCB_KailhSocket_LTST-A683CEGBW)(type KiCad)(uri ${KIPRJMOD}/kicad-libraries/footprints/CherryMX_PCB_KailhSocket_LTST-A683CEGBW.pretty)(options "")(descr ""))
   (lib (name kbd)(type KiCad)(uri ${KIPRJMOD}/kbd/kicad-footprints/kbd.pretty)(options "")(descr ""))
-  (lib (name FE2.1)(type KiCad)(uri ${KIPRJMOD}/FE2.1.pretty)(options "")(descr ""))
+  (lib (name custom-footprints)(type KiCad)(uri ${KIPRJMOD}/custom-footprints.pretty)(options "")(descr ""))
 )
