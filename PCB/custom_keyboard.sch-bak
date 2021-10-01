@@ -878,7 +878,6 @@ Wire Wire Line
 	18800 15600 18800 16200
 Connection ~ 16850 15600
 Connection ~ 18800 16200
-NoConn ~ 16650 15700
 Wire Wire Line
 	18800 18750 18900 18750
 Connection ~ 18800 18750
@@ -1894,9 +1893,9 @@ F 3 "~" H 22400 17250 50  0001 C CNN
 	1    22400 17250
 	0    -1   -1   0   
 $EndComp
-Text GLabel 22600 17250 2    50   Input ~ 0
+Text GLabel 27300 18950 2    50   Input ~ 0
 HUB_PORT3_D-
-Text GLabel 22600 17150 2    50   Input ~ 0
+Text GLabel 27300 18850 2    50   Input ~ 0
 HUB_PORT3_D+
 Connection ~ 21350 14450
 Wire Wire Line
@@ -2036,10 +2035,6 @@ F 3 "" H 21350 15800 50  0001 C CNN
 	1    21350 15800
 	1    0    0    -1  
 $EndComp
-Text GLabel 22600 15200 2    50   Input ~ 0
-HUB_PORT2_D-
-Text GLabel 22600 15100 2    50   Input ~ 0
-HUB_PORT2_D+
 $Comp
 L Connector:USB_A J1
 U 1 1 9C102387
@@ -12624,20 +12619,6 @@ Connection ~ 22200 15100
 Wire Wire Line
 	22200 15100 22300 15100
 Wire Wire Line
-	21200 17150 22200 17150
-Wire Wire Line
-	21200 17250 21500 17250
-Wire Wire Line
-	21500 17050 21500 17250
-Connection ~ 21500 17250
-Wire Wire Line
-	21500 17250 22300 17250
-Wire Wire Line
-	22200 17050 22200 17150
-Connection ~ 22200 17150
-Wire Wire Line
-	22200 17150 22300 17150
-Wire Wire Line
 	21350 14450 21350 14550
 Wire Wire Line
 	21350 14750 21350 14900
@@ -12684,7 +12665,7 @@ Text GLabel 7700 17850 2    50   Input ~ 0
 COL5
 Text GLabel 7700 17750 2    50   Input ~ 0
 COL4
-Text GLabel 7750 16050 2    50   Input ~ 0
+Text GLabel 7700 16050 2    50   Input ~ 0
 ENCODER_A
 $Comp
 L Device:R_Small R55
@@ -12722,10 +12703,6 @@ Wire Wire Line
 Connection ~ 9350 19350
 Wire Wire Line
 	9350 19350 9350 19500
-Text GLabel 27300 18850 2    50   Input ~ 0
-HUB_PORT4_D+
-Text GLabel 27300 18950 2    50   Input ~ 0
-HUB_PORT4_D-
 Text GLabel 27300 17050 2    50   Input ~ 0
 HUB_PORT6_D-
 Text GLabel 27300 16950 2    50   Input ~ 0
@@ -12737,18 +12714,14 @@ HUB_PORT5_D-
 $Comp
 L power:GND #PWR0119
 U 1 1 A66E7532
-P 16650 15350
-F 0 "#PWR0119" H 16650 15100 50  0001 C CNN
-F 1 "GND" H 16655 15177 50  0000 C CNN
-F 2 "" H 16650 15350 50  0001 C CNN
-F 3 "" H 16650 15350 50  0001 C CNN
-	1    16650 15350
+P 16550 15350
+F 0 "#PWR0119" H 16550 15100 50  0001 C CNN
+F 1 "GND" H 16555 15177 50  0000 C CNN
+F 2 "" H 16550 15350 50  0001 C CNN
+F 3 "" H 16550 15350 50  0001 C CNN
+	1    16550 15350
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	16450 15250 16650 15250
-Wire Wire Line
-	16650 15250 16650 15350
 Wire Wire Line
 	16450 15250 16450 15700
 Text GLabel 18150 15150 0    50   Input ~ 0
@@ -12761,4 +12734,34 @@ Wire Wire Line
 	18150 15150 18450 15150
 NoConn ~ 18450 15150
 NoConn ~ 18450 15250
+Text GLabel 16650 15400 1    50   Input ~ 0
+HUB_OUTPUT_POWER
+Wire Wire Line
+	16550 15350 16550 15250
+Wire Wire Line
+	16550 15250 16450 15250
+Wire Wire Line
+	16650 15700 16650 15400
+Text GLabel 22600 17250 2    50   Input ~ 0
+HUB_PORT4_D-
+Text GLabel 22600 17150 2    50   Input ~ 0
+HUB_PORT4_D+
+Text GLabel 22600 15100 2    50   Input ~ 0
+HUB_PORT2_D+
+Text GLabel 22600 15200 2    50   Input ~ 0
+HUB_PORT2_D-
+Wire Wire Line
+	21500 17250 22300 17250
+Wire Wire Line
+	21200 17250 21500 17250
+Connection ~ 21500 17250
+Wire Wire Line
+	21500 17050 21500 17250
+Wire Wire Line
+	22200 17150 22300 17150
+Wire Wire Line
+	21200 17150 22200 17150
+Connection ~ 22200 17150
+Wire Wire Line
+	22200 17050 22200 17150
 $EndSCHEMATC
