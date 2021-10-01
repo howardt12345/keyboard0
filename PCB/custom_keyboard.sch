@@ -2423,13 +2423,13 @@ Wire Wire Line
 	7700 15950 7200 15950
 Wire Wire Line
 	7200 15850 7700 15850
-Text GLabel 7700 19050 2    50   Input ~ 0
-COL17
 Text GLabel 7700 18950 2    50   Input ~ 0
+COL17
+Text GLabel 7700 19050 2    50   Input ~ 0
 COL16
-Text GLabel 7700 19250 2    50   Input ~ 0
-COL15
 Text GLabel 7700 19150 2    50   Input ~ 0
+COL15
+Text GLabel 7700 16250 2    50   Input ~ 0
 COL14
 Wire Wire Line
 	4300 16450 4300 16500
@@ -2566,17 +2566,17 @@ Text GLabel 7700 16050 2    50   Input ~ 0
 ENCODER_B1
 Text GLabel 7700 16150 2    50   Input ~ 0
 ENCODER_B2
-Text GLabel 7700 16550 2    50   Input ~ 0
+Text GLabel 7700 19250 2    50   Input ~ 0
 COL0
-Text GLabel 7700 16450 2    50   Input ~ 0
-COL1
-Text GLabel 7700 16350 2    50   Input ~ 0
-COL2
-Text GLabel 7700 16250 2    50   Input ~ 0
-COL3
-Text GLabel 5450 17750 0    50   Input ~ 0
-COL13
 Text GLabel 5450 17650 0    50   Input ~ 0
+COL1
+Text GLabel 5450 17750 0    50   Input ~ 0
+COL2
+Text GLabel 7700 17650 2    50   Input ~ 0
+COL3
+Text GLabel 7700 16350 2    50   Input ~ 0
+COL13
+Text GLabel 7700 16450 2    50   Input ~ 0
 COL12
 $Comp
 L Device:R_Small R34
@@ -12982,20 +12982,20 @@ Wire Wire Line
 	16500 11600 16700 11600
 Wire Wire Line
 	16900 11600 17050 11600
-Text GLabel 7700 18350 2    50   Input ~ 0
+Text GLabel 7700 16550 2    50   Input ~ 0
 COL11
-Text GLabel 7700 18250 2    50   Input ~ 0
+Text GLabel 7700 18350 2    50   Input ~ 0
 COL10
-Text GLabel 7700 18150 2    50   Input ~ 0
+Text GLabel 7700 18250 2    50   Input ~ 0
 COL9
-Text GLabel 7700 18050 2    50   Input ~ 0
+Text GLabel 7700 18150 2    50   Input ~ 0
 COL8
-Text GLabel 7700 17950 2    50   Input ~ 0
+Text GLabel 7700 18050 2    50   Input ~ 0
 COL7
-Text GLabel 7700 17850 2    50   Input ~ 0
+Text GLabel 7700 17950 2    50   Input ~ 0
 COL6
-Text GLabel 7700 17750 2    50   Input ~ 0
+Text GLabel 7700 17850 2    50   Input ~ 0
 COL5
-Text GLabel 7700 17650 2    50   Input ~ 0
+Text GLabel 7700 17750 2    50   Input ~ 0
 COL4
 $EndSCHEMATC
