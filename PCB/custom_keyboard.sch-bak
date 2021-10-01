@@ -473,7 +473,7 @@ F 3 "" H 10750 19700 60  0001 C CNN
 	1    10750 19600
 	1    0    0    -1  
 $EndComp
-Text GLabel 9650 19250 1    50   Input ~ 0
+Text GLabel 9550 19250 1    50   Input ~ 0
 KEYBOARD_SDA
 Text GLabel 9800 19250 1    50   Input ~ 0
 KEYBOARD_SCL
@@ -559,20 +559,16 @@ Wire Notes Line
 $Comp
 L power:+5V #PWR0197
 U 1 1 745E23C2
-P 9500 19250
-F 0 "#PWR0197" H 9500 19100 50  0001 C CNN
-F 1 "+5V" H 9350 19300 50  0000 C CNN
-F 2 "" H 9500 19250 50  0001 C CNN
-F 3 "" H 9500 19250 50  0001 C CNN
-	1    9500 19250
+P 9350 19250
+F 0 "#PWR0197" H 9350 19100 50  0001 C CNN
+F 1 "+5V" H 9200 19300 50  0000 C CNN
+F 2 "" H 9350 19250 50  0001 C CNN
+F 3 "" H 9350 19250 50  0001 C CNN
+	1    9350 19250
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	10000 19350 9800 19350
-Wire Wire Line
-	10000 19500 9650 19500
-Wire Wire Line
-	9500 19650 10000 19650
 Wire Wire Line
 	9350 19800 10000 19800
 Text Notes 9650 18450 0    118  ~ 24
@@ -580,9 +576,9 @@ Keyboard OLED
 Wire Wire Line
 	9800 19250 9800 19350
 Wire Wire Line
-	9500 19250 9500 19650
+	9350 19250 9350 19350
 Wire Wire Line
-	9650 19500 9650 19250
+	9550 19500 9550 19250
 Wire Wire Line
 	9350 19900 9350 19800
 Wire Notes Line
@@ -2546,11 +2542,11 @@ F 3 "" H 4900 17400 50  0001 C CNN
 	1    4900 17400
 	1    0    0    -1  
 $EndComp
-Text GLabel 5650 18550 0    50   Input ~ 0
+Text GLabel 5650 18750 0    50   Input ~ 0
 ROW0
 Text GLabel 5650 18650 0    50   Input ~ 0
 ROW1
-Text GLabel 5650 18750 0    50   Input ~ 0
+Text GLabel 5650 18550 0    50   Input ~ 0
 ROW2
 Text GLabel 5650 18850 0    50   Input ~ 0
 ROW3
@@ -2561,8 +2557,6 @@ ROW5
 Text GLabel 7700 15850 2    50   Input ~ 0
 BKL_DATA_IN
 Text GLabel 7700 15950 2    50   Input ~ 0
-ENCODER_A
-Text GLabel 7700 16050 2    50   Input ~ 0
 ENCODER_B1
 Text GLabel 7700 16150 2    50   Input ~ 0
 ENCODER_B2
@@ -12998,4 +12992,42 @@ Text GLabel 7700 17850 2    50   Input ~ 0
 COL5
 Text GLabel 7700 17750 2    50   Input ~ 0
 COL4
+Text GLabel 7750 16050 2    50   Input ~ 0
+ENCODER_A
+$Comp
+L Device:R_Small R55
+U 1 1 A0A4D4B3
+P 9450 19500
+F 0 "R55" V 9254 19500 50  0000 C CNN
+F 1 "20k" V 9345 19500 50  0000 C CNN
+F 2 "" H 9450 19500 50  0001 C CNN
+F 3 "~" H 9450 19500 50  0001 C CNN
+	1    9450 19500
+	0    1    1    0   
+$EndComp
+Connection ~ 9550 19500
+Connection ~ 9350 19500
+Wire Wire Line
+	9350 19500 9350 19650
+$Comp
+L Device:R_Small R54
+U 1 1 A0A4DDB4
+P 9700 19350
+F 0 "R54" V 9896 19350 50  0000 C CNN
+F 1 "20k" V 9805 19350 50  0000 C CNN
+F 2 "" H 9700 19350 50  0001 C CNN
+F 3 "~" H 9700 19350 50  0001 C CNN
+	1    9700 19350
+	0    -1   -1   0   
+$EndComp
+Connection ~ 9800 19350
+Wire Wire Line
+	9550 19500 10000 19500
+Wire Wire Line
+	9350 19650 10000 19650
+Wire Wire Line
+	9600 19350 9350 19350
+Connection ~ 9350 19350
+Wire Wire Line
+	9350 19350 9350 19500
 $EndSCHEMATC
