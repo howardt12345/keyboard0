@@ -1893,9 +1893,9 @@ F 3 "~" H 22400 17250 50  0001 C CNN
 	1    22400 17250
 	0    -1   -1   0   
 $EndComp
-Text GLabel 27300 18950 2    50   Input ~ 0
+Text GLabel 22600 15200 2    50   Input ~ 0
 HUB_PORT3_D-
-Text GLabel 27300 18850 2    50   Input ~ 0
+Text GLabel 22600 15100 2    50   Input ~ 0
 HUB_PORT3_D+
 Connection ~ 21350 14450
 Wire Wire Line
@@ -12746,9 +12746,9 @@ Text GLabel 22600 17250 2    50   Input ~ 0
 HUB_PORT4_D-
 Text GLabel 22600 17150 2    50   Input ~ 0
 HUB_PORT4_D+
-Text GLabel 22600 15100 2    50   Input ~ 0
+Text GLabel 27300 18850 2    50   Input ~ 0
 HUB_PORT2_D+
-Text GLabel 22600 15200 2    50   Input ~ 0
+Text GLabel 27300 18950 2    50   Input ~ 0
 HUB_PORT2_D-
 Wire Wire Line
 	21500 17250 22300 17250
