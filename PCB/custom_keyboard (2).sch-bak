@@ -139,10 +139,10 @@ Wire Wire Line
 	20650 10500 21050 10500
 Connection ~ 20650 10500
 $Comp
-L Device:Rotary_Encoder_Switch ROT1
+L Device:Rotary_Encoder_Switch ROT2
 U 1 1 616029B6
 P 15350 10850
-F 0 "ROT1" V 15396 10620 50  0000 R CNN
+F 0 "ROT2" V 15396 10620 50  0000 R CNN
 F 1 "Rotary_Encoder_Switch" V 15305 10620 50  0000 R CNN
 F 2 "Rotary_Encoder:RotaryEncoder_Alps_EC11E-Switch_Vertical_H20mm" H 15200 11010 50  0001 C CNN
 F 3 "~" H 15350 11110 50  0001 C CNN
@@ -150,10 +150,10 @@ F 3 "~" H 15350 11110 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:Rotary_Encoder_Switch ROT2
+L Device:Rotary_Encoder_Switch ROT1
 U 1 1 61614FF0
 P 18050 10850
-F 0 "ROT2" V 18096 10620 50  0000 R CNN
+F 0 "ROT1" V 18096 10620 50  0000 R CNN
 F 1 "Rotary_Encoder_Switch" V 18005 10620 50  0000 R CNN
 F 2 "Rotary_Encoder:RotaryEncoder_Alps_EC11E-Switch_Vertical_H20mm" H 17900 11010 50  0001 C CNN
 F 3 "~" H 18050 11110 50  0001 C CNN
