@@ -3877,11 +3877,11 @@ Text GLabel 2100 2450 1    50   Input ~ 0
 COL0
 Text GLabel 5150 17000 2    50   Input ~ 0
 COL3
-Text GLabel 5150 16900 2    50   Input ~ 0
+Text GLabel 5500 18100 2    50   Input ~ 0
 COL2
-Text GLabel 5150 16800 2    50   Input ~ 0
+Text GLabel 5500 18200 2    50   Input ~ 0
 COL1
-Text GLabel 5150 16700 2    50   Input ~ 0
+Text GLabel 3450 17000 0    50   Input ~ 0
 COL0
 Text GLabel 3450 16800 0    50   Input ~ 0
 COL9
@@ -3897,13 +3897,13 @@ Text GLabel 5150 17100 2    50   Input ~ 0
 COL4
 Text GLabel 3450 16700 0    50   Input ~ 0
 COL10
-Text GLabel 3450 17000 0    50   Input ~ 0
+Text GLabel 5150 16700 2    50   Input ~ 0
 COL11
 Text GLabel 5500 18000 2    50   Input ~ 0
 COL17
-Text GLabel 5500 18100 2    50   Input ~ 0
+Text GLabel 5150 16800 2    50   Input ~ 0
 COL16
-Text GLabel 5500 18200 2    50   Input ~ 0
+Text GLabel 5150 16900 2    50   Input ~ 0
 COL15
 Text GLabel 3450 17800 0    50   Input ~ 0
 COL14

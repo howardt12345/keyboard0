@@ -13788,43 +13788,43 @@ Wire Wire Line
 Wire Wire Line
 	9100 16350 9400 16350
 $Comp
-L Mechanical:MountingHole_Pad H?
+L Mechanical:MountingHole_Pad H4
 U 1 1 6FB1B5C9
 P 12800 20000
-F 0 "H?" H 12900 20049 50  0000 L CNN
+F 0 "H4" H 12900 20049 50  0000 L CNN
 F 1 "Hole" H 12900 19958 50  0000 L CNN
-F 2 "" H 12800 20000 50  0001 C CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_Pad" H 12800 20000 50  0001 C CNN
 F 3 "~" H 12800 20000 50  0001 C CNN
 	1    12800 20000
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:MountingHole_Pad H?
+L Mechanical:MountingHole_Pad H5
 U 1 1 6FB1C97B
 P 13200 20000
-F 0 "H?" H 13300 20049 50  0000 L CNN
+F 0 "H5" H 13300 20049 50  0000 L CNN
 F 1 "Hole" H 13300 19958 50  0000 L CNN
-F 2 "" H 13200 20000 50  0001 C CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_Pad" H 13200 20000 50  0001 C CNN
 F 3 "~" H 13200 20000 50  0001 C CNN
 	1    13200 20000
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:MountingHole_Pad H?
+L Mechanical:MountingHole_Pad H6
 U 1 1 6FB1CEC9
 P 13600 20000
-F 0 "H?" H 13700 20049 50  0000 L CNN
+F 0 "H6" H 13700 20049 50  0000 L CNN
 F 1 "Hole" H 13700 19958 50  0000 L CNN
-F 2 "" H 13600 20000 50  0001 C CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_Pad" H 13600 20000 50  0001 C CNN
 F 3 "~" H 13600 20000 50  0001 C CNN
 	1    13600 20000
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0283
 U 1 1 7017E3FA
 P 14050 20200
-F 0 "#PWR?" H 14050 19950 50  0001 C CNN
+F 0 "#PWR0283" H 14050 19950 50  0001 C CNN
 F 1 "GND" H 14055 20027 50  0000 C CNN
 F 2 "" H 14050 20200 50  0001 C CNN
 F 3 "" H 14050 20200 50  0001 C CNN
@@ -13840,34 +13840,34 @@ Wire Wire Line
 Wire Wire Line
 	13600 20100 13600 20200
 $Comp
-L Mechanical:MountingHole_Pad H?
+L Mechanical:MountingHole_Pad H1
 U 1 1 72E52B19
 P 11600 20000
-F 0 "H?" H 11700 20049 50  0000 L CNN
+F 0 "H1" H 11700 20049 50  0000 L CNN
 F 1 "Hole" H 11700 19958 50  0000 L CNN
-F 2 "" H 11600 20000 50  0001 C CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_Pad" H 11600 20000 50  0001 C CNN
 F 3 "~" H 11600 20000 50  0001 C CNN
 	1    11600 20000
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:MountingHole_Pad H?
+L Mechanical:MountingHole_Pad H2
 U 1 1 72E561AB
 P 12000 20000
-F 0 "H?" H 12100 20049 50  0000 L CNN
+F 0 "H2" H 12100 20049 50  0000 L CNN
 F 1 "Hole" H 12100 19958 50  0000 L CNN
-F 2 "" H 12000 20000 50  0001 C CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_Pad" H 12000 20000 50  0001 C CNN
 F 3 "~" H 12000 20000 50  0001 C CNN
 	1    12000 20000
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:MountingHole_Pad H?
+L Mechanical:MountingHole_Pad H3
 U 1 1 72E561B5
 P 12400 20000
-F 0 "H?" H 12500 20049 50  0000 L CNN
+F 0 "H3" H 12500 20049 50  0000 L CNN
 F 1 "Hole" H 12500 19958 50  0000 L CNN
-F 2 "" H 12400 20000 50  0001 C CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_Pad" H 12400 20000 50  0001 C CNN
 F 3 "~" H 12400 20000 50  0001 C CNN
 	1    12400 20000
 	1    0    0    -1  
