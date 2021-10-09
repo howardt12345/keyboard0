@@ -3126,9 +3126,9 @@ Wire Wire Line
 	6150 17800 6350 17800
 Wire Wire Line
 	6250 17900 6350 17900
-Text GLabel 9600 16350 2    50   Input ~ 0
+Text GLabel 9400 16350 2    50   Input ~ 0
 KEYBOARD_D+
-Text GLabel 8000 16350 0    50   Input ~ 0
+Text GLabel 8200 16350 0    50   Input ~ 0
 KEYBOARD_D-
 $Comp
 L power:+5V #PWR0158
@@ -3855,34 +3855,6 @@ Text GLabel 5150 17700 2    50   Input ~ 0
 KEYBOARD_SDA
 Text GLabel 5150 17600 2    50   Input ~ 0
 KEYBOARD_SCL
-$Comp
-L Device:R_Small R40
-U 1 1 A720CCE9
-P 9400 16350
-F 0 "R40" V 9204 16350 50  0000 C CNN
-F 1 "22" V 9295 16350 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric" H 9400 16350 50  0001 C CNN
-F 3 "~" H 9400 16350 50  0001 C CNN
-	1    9400 16350
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:R_Small R39
-U 1 1 A7E3297A
-P 8200 16350
-F 0 "R39" V 8004 16350 50  0000 C CNN
-F 1 "22" V 8095 16350 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric" H 8200 16350 50  0001 C CNN
-F 3 "~" H 8200 16350 50  0001 C CNN
-	1    8200 16350
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	8000 16350 8100 16350
-Wire Wire Line
-	9100 16350 9300 16350
-Wire Wire Line
-	9500 16350 9600 16350
 Wire Notes Line
 	10250 15700 10250 16850
 Wire Notes Line
@@ -3891,8 +3863,6 @@ Wire Notes Line
 	7350 16850 10250 16850
 Wire Notes Line
 	7350 15700 10250 15700
-Wire Wire Line
-	8300 16350 8500 16350
 Wire Wire Line
 	6150 17900 6250 17900
 Wire Wire Line
@@ -3913,7 +3883,7 @@ Text GLabel 5150 16800 2    50   Input ~ 0
 COL1
 Text GLabel 5150 16700 2    50   Input ~ 0
 COL0
-Text GLabel 3450 17300 0    50   Input ~ 0
+Text GLabel 3450 16800 0    50   Input ~ 0
 COL9
 Text GLabel 5150 17500 2    50   Input ~ 0
 COL8
@@ -3925,35 +3895,35 @@ Text GLabel 5150 17200 2    50   Input ~ 0
 COL5
 Text GLabel 5150 17100 2    50   Input ~ 0
 COL4
-Text GLabel 3450 17400 0    50   Input ~ 0
+Text GLabel 3450 16700 0    50   Input ~ 0
 COL10
-Text GLabel 3450 17500 0    50   Input ~ 0
+Text GLabel 3450 17000 0    50   Input ~ 0
 COL11
 Text GLabel 5500 18000 2    50   Input ~ 0
 COL17
 Text GLabel 5500 18100 2    50   Input ~ 0
 COL16
-Text GLabel 3450 17900 0    50   Input ~ 0
+Text GLabel 5500 18200 2    50   Input ~ 0
 COL15
 Text GLabel 3450 17800 0    50   Input ~ 0
 COL14
 Text GLabel 3450 17700 0    50   Input ~ 0
 COL13
-Text GLabel 3450 17600 0    50   Input ~ 0
-COL12
-Text GLabel 3450 17100 0    50   Input ~ 0
-ROW4
-Text GLabel 3450 17200 0    50   Input ~ 0
-ROW5
-Text GLabel 3450 17000 0    50   Input ~ 0
-ROW3
 Text GLabel 3450 16900 0    50   Input ~ 0
+COL12
+Text GLabel 3450 17200 0    50   Input ~ 0
+ROW4
+Text GLabel 3450 17100 0    50   Input ~ 0
+ROW5
+Text GLabel 3450 17300 0    50   Input ~ 0
+ROW3
+Text GLabel 3450 17400 0    50   Input ~ 0
 ROW2
-Text GLabel 3450 16800 0    50   Input ~ 0
+Text GLabel 3450 17500 0    50   Input ~ 0
 ROW1
-Text GLabel 3450 16700 0    50   Input ~ 0
+Text GLabel 3450 17600 0    50   Input ~ 0
 ROW0
-Text GLabel 5500 18200 2    50   Input ~ 0
+Text GLabel 3450 17900 0    50   Input ~ 0
 BKL_DATA_IN_3V3
 Text GLabel 3450 18000 0    50   Input ~ 0
 ENCODER_A
@@ -13813,4 +13783,8 @@ F 3 "" H 12450 15800 60  0000 C CNN
 	1    15150 15650
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	8200 16350 8500 16350
+Wire Wire Line
+	9100 16350 9400 16350
 $EndSCHEMATC
