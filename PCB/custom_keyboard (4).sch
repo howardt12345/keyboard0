@@ -3875,7 +3875,7 @@ Text GLabel 3500 2450 1    50   Input ~ 0
 COL1
 Text GLabel 2100 2450 1    50   Input ~ 0
 COL0
-Text GLabel 5150 17000 2    50   Input ~ 0
+Text GLabel 5500 18000 2    50   Input ~ 0
 COL3
 Text GLabel 5500 18100 2    50   Input ~ 0
 COL2
@@ -3883,33 +3883,33 @@ Text GLabel 5500 18200 2    50   Input ~ 0
 COL1
 Text GLabel 3450 17000 0    50   Input ~ 0
 COL0
-Text GLabel 3450 16800 0    50   Input ~ 0
-COL9
-Text GLabel 5150 17500 2    50   Input ~ 0
-COL8
-Text GLabel 5150 17400 2    50   Input ~ 0
-COL7
-Text GLabel 5150 17300 2    50   Input ~ 0
-COL6
 Text GLabel 5150 17200 2    50   Input ~ 0
-COL5
+COL9
 Text GLabel 5150 17100 2    50   Input ~ 0
-COL4
-Text GLabel 3450 16700 0    50   Input ~ 0
-COL10
-Text GLabel 5150 16700 2    50   Input ~ 0
-COL11
-Text GLabel 5500 18000 2    50   Input ~ 0
-COL17
-Text GLabel 5150 16800 2    50   Input ~ 0
-COL16
+COL8
+Text GLabel 5150 17000 2    50   Input ~ 0
+COL7
 Text GLabel 5150 16900 2    50   Input ~ 0
-COL15
+COL6
+Text GLabel 5150 16800 2    50   Input ~ 0
+COL5
+Text GLabel 5150 16700 2    50   Input ~ 0
+COL4
+Text GLabel 5150 17300 2    50   Input ~ 0
+COL10
+Text GLabel 5150 17400 2    50   Input ~ 0
+COL11
+Text GLabel 3450 17900 0    50   Input ~ 0
+COL17
 Text GLabel 3450 17800 0    50   Input ~ 0
-COL14
+COL16
 Text GLabel 3450 17700 0    50   Input ~ 0
-COL13
+COL15
 Text GLabel 3450 16900 0    50   Input ~ 0
+COL14
+Text GLabel 3450 16800 0    50   Input ~ 0
+COL13
+Text GLabel 3450 16700 0    50   Input ~ 0
 COL12
 Text GLabel 3450 17200 0    50   Input ~ 0
 ROW4
@@ -3923,7 +3923,7 @@ Text GLabel 3450 17500 0    50   Input ~ 0
 ROW1
 Text GLabel 3450 17600 0    50   Input ~ 0
 ROW0
-Text GLabel 3450 17900 0    50   Input ~ 0
+Text GLabel 5150 17500 2    50   Input ~ 0
 BKL_DATA_IN_3V3
 Text GLabel 3450 18000 0    50   Input ~ 0
 ENCODER_A
@@ -13700,7 +13700,7 @@ HUB_LED2
 Text GLabel 13400 15300 0    50   Input ~ 0
 HUB_LED1
 Wire Wire Line
-	25900 4000 25900 2450
+	25900 4000 25900 3200
 Wire Wire Line
 	2200 3200 2100 3200
 Wire Wire Line
@@ -13893,4 +13893,9 @@ Wire Wire Line
 Connection ~ 13200 20200
 Wire Wire Line
 	13200 20200 13600 20200
+Wire Wire Line
+	26000 3200 25900 3200
+Connection ~ 25900 3200
+Wire Wire Line
+	25900 3200 25900 2450
 $EndSCHEMATC
