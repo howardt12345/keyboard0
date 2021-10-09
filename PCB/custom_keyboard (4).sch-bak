@@ -3883,7 +3883,7 @@ Text GLabel 5150 16800 2    50   Input ~ 0
 COL1
 Text GLabel 5150 16700 2    50   Input ~ 0
 COL0
-Text GLabel 3450 17300 0    50   Input ~ 0
+Text GLabel 3450 16800 0    50   Input ~ 0
 COL9
 Text GLabel 5150 17500 2    50   Input ~ 0
 COL8
@@ -3895,9 +3895,9 @@ Text GLabel 5150 17200 2    50   Input ~ 0
 COL5
 Text GLabel 5150 17100 2    50   Input ~ 0
 COL4
-Text GLabel 3450 17400 0    50   Input ~ 0
+Text GLabel 3450 16700 0    50   Input ~ 0
 COL10
-Text GLabel 3450 17500 0    50   Input ~ 0
+Text GLabel 3450 17000 0    50   Input ~ 0
 COL11
 Text GLabel 5500 18000 2    50   Input ~ 0
 COL17
@@ -3909,19 +3909,19 @@ Text GLabel 3450 17800 0    50   Input ~ 0
 COL14
 Text GLabel 3450 17700 0    50   Input ~ 0
 COL13
-Text GLabel 3450 17600 0    50   Input ~ 0
-COL12
-Text GLabel 3450 17100 0    50   Input ~ 0
-ROW4
-Text GLabel 3450 17200 0    50   Input ~ 0
-ROW5
-Text GLabel 3450 17000 0    50   Input ~ 0
-ROW3
 Text GLabel 3450 16900 0    50   Input ~ 0
+COL12
+Text GLabel 3450 17200 0    50   Input ~ 0
+ROW4
+Text GLabel 3450 17100 0    50   Input ~ 0
+ROW5
+Text GLabel 3450 17300 0    50   Input ~ 0
+ROW3
+Text GLabel 3450 17400 0    50   Input ~ 0
 ROW2
-Text GLabel 3450 16800 0    50   Input ~ 0
+Text GLabel 3450 17500 0    50   Input ~ 0
 ROW1
-Text GLabel 3450 16700 0    50   Input ~ 0
+Text GLabel 3450 17600 0    50   Input ~ 0
 ROW0
 Text GLabel 3450 17900 0    50   Input ~ 0
 BKL_DATA_IN_3V3
@@ -13787,4 +13787,110 @@ Wire Wire Line
 	8200 16350 8500 16350
 Wire Wire Line
 	9100 16350 9400 16350
+$Comp
+L Mechanical:MountingHole_Pad H?
+U 1 1 6FB1B5C9
+P 12800 20000
+F 0 "H?" H 12900 20049 50  0000 L CNN
+F 1 "Hole" H 12900 19958 50  0000 L CNN
+F 2 "" H 12800 20000 50  0001 C CNN
+F 3 "~" H 12800 20000 50  0001 C CNN
+	1    12800 20000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H?
+U 1 1 6FB1C97B
+P 13200 20000
+F 0 "H?" H 13300 20049 50  0000 L CNN
+F 1 "Hole" H 13300 19958 50  0000 L CNN
+F 2 "" H 13200 20000 50  0001 C CNN
+F 3 "~" H 13200 20000 50  0001 C CNN
+	1    13200 20000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H?
+U 1 1 6FB1CEC9
+P 13600 20000
+F 0 "H?" H 13700 20049 50  0000 L CNN
+F 1 "Hole" H 13700 19958 50  0000 L CNN
+F 2 "" H 13600 20000 50  0001 C CNN
+F 3 "~" H 13600 20000 50  0001 C CNN
+	1    13600 20000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 7017E3FA
+P 14050 20200
+F 0 "#PWR?" H 14050 19950 50  0001 C CNN
+F 1 "GND" H 14055 20027 50  0000 C CNN
+F 2 "" H 14050 20200 50  0001 C CNN
+F 3 "" H 14050 20200 50  0001 C CNN
+	1    14050 20200
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	14050 20200 13600 20200
+Wire Wire Line
+	12800 20200 12800 20100
+Wire Wire Line
+	13200 20100 13200 20200
+Wire Wire Line
+	13600 20100 13600 20200
+$Comp
+L Mechanical:MountingHole_Pad H?
+U 1 1 72E52B19
+P 11600 20000
+F 0 "H?" H 11700 20049 50  0000 L CNN
+F 1 "Hole" H 11700 19958 50  0000 L CNN
+F 2 "" H 11600 20000 50  0001 C CNN
+F 3 "~" H 11600 20000 50  0001 C CNN
+	1    11600 20000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H?
+U 1 1 72E561AB
+P 12000 20000
+F 0 "H?" H 12100 20049 50  0000 L CNN
+F 1 "Hole" H 12100 19958 50  0000 L CNN
+F 2 "" H 12000 20000 50  0001 C CNN
+F 3 "~" H 12000 20000 50  0001 C CNN
+	1    12000 20000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H?
+U 1 1 72E561B5
+P 12400 20000
+F 0 "H?" H 12500 20049 50  0000 L CNN
+F 1 "Hole" H 12500 19958 50  0000 L CNN
+F 2 "" H 12400 20000 50  0001 C CNN
+F 3 "~" H 12400 20000 50  0001 C CNN
+	1    12400 20000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	11600 20200 11600 20100
+Wire Wire Line
+	12000 20100 12000 20200
+Wire Wire Line
+	12400 20100 12400 20200
+Wire Wire Line
+	11600 20200 12000 20200
+Connection ~ 13600 20200
+Connection ~ 12000 20200
+Wire Wire Line
+	12000 20200 12400 20200
+Connection ~ 12400 20200
+Wire Wire Line
+	12400 20200 12800 20200
+Connection ~ 12800 20200
+Wire Wire Line
+	12800 20200 13200 20200
+Connection ~ 13200 20200
+Wire Wire Line
+	13200 20200 13600 20200
 $EndSCHEMATC
