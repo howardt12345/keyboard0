@@ -29,7 +29,7 @@ FE2.1 ,IC1,FE2.1,C39693
 "2.7k Resistor, small symbol",R41,R_0805_2012Metric,C17530
 "1.5k Resistor, small symbol",R42,R_0805_2012Metric,C4310
 "500 Resistor, small symbol",R47,R_0805_2012Metric,C17710
-"SW_Push Push button switch, generic, two pins",SW1,SKQG-1155865,C116647
+"SW_Push Push button switch, generic, two pins",SW1,SKQG-1155865,C318884
 "24LC02BT-I/SN I2C Serial EEPROM, 2Kb, DIP-8/SOIC-8/TSSOP-8/DFN-8",U1,24LC04,C511263
 PRTR5V0U2X ,"U2,U3,U4,U5,U6,U7,U8,U10",SOT143B,C2827688
 "STM32F303CBT6 ARM Cortex-M4 MCU, 128KB flash, 32KB RAM, 72MHz, 2-3.6V, 37 GPIO, LQFP-48",U9,LQFP-48_7x7mm_P0.5mm,C108516
