@@ -1924,8 +1924,6 @@ F 3 "~" H 7250 18550 50  0001 C CNN
 	1    7250 18550
 	0    -1   -1   0   
 $EndComp
-Text GLabel 7550 18650 2    50   Input ~ 0
-KEYBOARD_D+
 Text GLabel 7550 18550 2    50   Input ~ 0
 KEYBOARD_D-
 Wire Wire Line
@@ -3348,7 +3346,7 @@ U 1 1 E5907A38
 P 7000 16300
 F 0 "J2" H 7108 16581 50  0000 C CNN
 F 1 "Conn_01x03_Male" H 7108 16490 50  0000 R CNN
-F 2 "Connector_JST:JST_GH_SM03B-GHS-TB_1x03-1MP_P1.25mm_Horizontal" H 7000 16300 50  0001 C CNN
+F 2 "Connector_JST:JST_SH_SM03B-SRSS-TB_1x03-1MP_P1.00mm_Horizontal" H 7000 16300 50  0001 C CNN
 F 3 "~" H 7000 16300 50  0001 C CNN
 	1    7000 16300
 	1    0    0    -1  
@@ -12623,17 +12621,6 @@ F 3 "~" H 14150 21250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:MountingHole_Pad H5
-U 1 1 6FB1C97B
-P 14550 21250
-F 0 "H5" H 14650 21299 50  0000 L CNN
-F 1 "Hole" H 14650 21208 50  0000 L CNN
-F 2 "MountingHole:MountingHole_3.2mm_M3_Pad" H 14550 21250 50  0001 C CNN
-F 3 "~" H 14550 21250 50  0001 C CNN
-	1    14550 21250
-	1    0    0    -1  
-$EndComp
-$Comp
 L Mechanical:MountingHole_Pad H6
 U 1 1 6FB1CEC9
 P 14950 21250
@@ -12660,8 +12647,6 @@ Wire Wire Line
 Wire Wire Line
 	14150 21450 14150 21350
 Wire Wire Line
-	14550 21350 14550 21450
-Wire Wire Line
 	14950 21350 14950 21450
 $Comp
 L Mechanical:MountingHole_Pad H1
@@ -12672,17 +12657,6 @@ F 1 "Hole" H 13050 21208 50  0000 L CNN
 F 2 "MountingHole:MountingHole_3.2mm_M3_Pad" H 12950 21250 50  0001 C CNN
 F 3 "~" H 12950 21250 50  0001 C CNN
 	1    12950 21250
-	1    0    0    -1  
-$EndComp
-$Comp
-L Mechanical:MountingHole_Pad H2
-U 1 1 72E561AB
-P 13350 21250
-F 0 "H2" H 13450 21299 50  0000 L CNN
-F 1 "Hole" H 13450 21208 50  0000 L CNN
-F 2 "MountingHole:MountingHole_3.2mm_M3_Pad" H 13350 21250 50  0001 C CNN
-F 3 "~" H 13350 21250 50  0001 C CNN
-	1    13350 21250
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -12699,24 +12673,12 @@ $EndComp
 Wire Wire Line
 	12950 21450 12950 21350
 Wire Wire Line
-	13350 21350 13350 21450
-Wire Wire Line
 	13750 21350 13750 21450
-Wire Wire Line
-	12950 21450 13350 21450
 Connection ~ 14950 21450
-Connection ~ 13350 21450
-Wire Wire Line
-	13350 21450 13750 21450
 Connection ~ 13750 21450
 Wire Wire Line
 	13750 21450 14150 21450
 Connection ~ 14150 21450
-Wire Wire Line
-	14150 21450 14550 21450
-Connection ~ 14550 21450
-Wire Wire Line
-	14550 21450 14950 21450
 Wire Wire Line
 	28050 3850 27950 3850
 Connection ~ 27950 3850
@@ -14095,4 +14057,42 @@ F 3 "~" H 10250 13000 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	10900 13200 10900 13500
+Text GLabel 22650 16250 1    50   Input ~ 0
+D+
+Text GLabel 22650 16350 3    50   Input ~ 0
+D-
+Text GLabel 22650 14300 3    50   Input ~ 0
+D-
+Text GLabel 22650 12250 3    50   Input ~ 0
+D-
+Text GLabel 22650 14200 1    50   Input ~ 0
+D+
+Text GLabel 22650 12150 1    50   Input ~ 0
+D+
+Text GLabel 26900 12300 1    50   Input ~ 0
+D-
+Text GLabel 26900 12400 3    50   Input ~ 0
+D+
+Text GLabel 26850 14850 3    50   Input ~ 0
+D+
+Text GLabel 26850 17300 3    50   Input ~ 0
+D+
+Text GLabel 26850 14750 1    50   Input ~ 0
+D-
+Text GLabel 26850 17200 1    50   Input ~ 0
+D-
+Text GLabel 14600 11950 3    50   Input ~ 0
+D+
+Text GLabel 14600 11850 1    50   Input ~ 0
+D-
+Text GLabel 7550 18650 2    50   Input ~ 0
+KEYBOARD_D+
+Text GLabel 7050 18650 3    50   Input ~ 0
+KEYBOARD_D+
+Text GLabel 7100 18550 1    50   Input ~ 0
+KEYBOARD_D-
+Wire Wire Line
+	12950 21450 13750 21450
+Wire Wire Line
+	14150 21450 14950 21450
 $EndSCHEMATC

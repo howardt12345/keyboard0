@@ -1924,8 +1924,6 @@ F 3 "~" H 7250 18550 50  0001 C CNN
 	1    7250 18550
 	0    -1   -1   0   
 $EndComp
-Text GLabel 7550 18650 2    50   Input ~ 0
-KEYBOARD_D+
 Text GLabel 7550 18550 2    50   Input ~ 0
 KEYBOARD_D-
 Wire Wire Line
@@ -3348,7 +3346,7 @@ U 1 1 E5907A38
 P 7000 16300
 F 0 "J2" H 7108 16581 50  0000 C CNN
 F 1 "Conn_01x03_Male" H 7108 16490 50  0000 R CNN
-F 2 "Connector_JST:JST_GH_SM03B-GHS-TB_1x03-1MP_P1.25mm_Horizontal" H 7000 16300 50  0001 C CNN
+F 2 "Connector_JST:JST_SH_SM03B-SRSS-TB_1x03-1MP_P1.00mm_Horizontal" H 7000 16300 50  0001 C CNN
 F 3 "~" H 7000 16300 50  0001 C CNN
 	1    7000 16300
 	1    0    0    -1  
@@ -14095,16 +14093,38 @@ F 3 "~" H 10250 13000 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	10900 13200 10900 13500
-Text GLabel 14600 11950 3    50   Input ~ 0
+Text GLabel 22650 16250 1    50   Input ~ 0
 D+
-Text GLabel 14600 11850 1    50   Input ~ 0
+Text GLabel 22650 16350 3    50   Input ~ 0
 D-
-Text GLabel 22650 12150 1    50   Input ~ 0
+Text GLabel 22650 14300 3    50   Input ~ 0
 D-
 Text GLabel 22650 12250 3    50   Input ~ 0
+D-
+Text GLabel 22650 14200 1    50   Input ~ 0
+D+
+Text GLabel 22650 12150 1    50   Input ~ 0
 D+
 Text GLabel 26900 12300 1    50   Input ~ 0
 D-
 Text GLabel 26900 12400 3    50   Input ~ 0
 D+
+Text GLabel 26850 14850 3    50   Input ~ 0
+D+
+Text GLabel 26850 17300 3    50   Input ~ 0
+D+
+Text GLabel 26850 14750 1    50   Input ~ 0
+D-
+Text GLabel 26850 17200 1    50   Input ~ 0
+D-
+Text GLabel 14600 11950 3    50   Input ~ 0
+D+
+Text GLabel 14600 11850 1    50   Input ~ 0
+D-
+Text GLabel 7550 18650 2    50   Input ~ 0
+KEYBOARD_D+
+Text GLabel 7050 18650 3    50   Input ~ 0
+KEYBOARD_D+
+Text GLabel 7100 18550 1    50   Input ~ 0
+KEYBOARD_D-
 $EndSCHEMATC
