@@ -1996,19 +1996,6 @@ KEYBOARD_D+
 Text GLabel 9400 17100 0    50   Input ~ 0
 KEYBOARD_D-
 $Comp
-L power:+5V #PWR0158
-U 1 1 7282045F
-P 10400 17000
-F 0 "#PWR0158" H 10400 16850 50  0001 C CNN
-F 1 "+5V" H 10415 17173 50  0000 C CNN
-F 2 "" H 10400 17000 50  0001 C CNN
-F 3 "" H 10400 17000 50  0001 C CNN
-	1    10400 17000
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	10400 17200 10400 17000
-$Comp
 L power:GND #PWR0190
 U 1 1 6DECA9D4
 P 7200 21250
@@ -2019,19 +2006,6 @@ F 3 "" H 7200 21250 50  0001 C CNN
 	1    7200 21250
 	-1   0    0    -1  
 $EndComp
-$Comp
-L power:GND #PWR0164
-U 1 1 72C3AC24
-P 9600 17300
-F 0 "#PWR0164" H 9600 17050 50  0001 C CNN
-F 1 "GND" H 9605 17127 50  0000 C CNN
-F 2 "" H 9600 17300 50  0001 C CNN
-F 3 "" H 9600 17300 50  0001 C CNN
-	1    9600 17300
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	9600 17300 9600 17200
 $Comp
 L power:GND #PWR0182
 U 1 1 74D17B46
@@ -12590,10 +12564,6 @@ F 3 "" H 13100 16900 60  0000 C CNN
 	1    15800 16750
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	10600 17100 10300 17100
-Wire Wire Line
-	9700 17100 9400 17100
 $Comp
 L Mechanical:MountingHole_Pad H4
 U 1 1 6FB1B5C9
@@ -14042,48 +14012,23 @@ F 3 "~" H 10250 13000 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	10900 13200 10900 13500
-Text GLabel 22650 16250 1    50   Input ~ 0
-D+
-Text GLabel 22650 16350 3    50   Input ~ 0
-D-
-Text GLabel 22650 14300 3    50   Input ~ 0
-D-
-Text GLabel 22650 12250 3    50   Input ~ 0
-D-
-Text GLabel 22650 14200 1    50   Input ~ 0
-D+
-Text GLabel 22650 12150 1    50   Input ~ 0
-D+
-Text GLabel 26900 12300 1    50   Input ~ 0
-D-
-Text GLabel 26900 12400 3    50   Input ~ 0
-D+
-Text GLabel 26850 14850 3    50   Input ~ 0
-D+
-Text GLabel 26850 17300 3    50   Input ~ 0
-D+
-Text GLabel 26850 14750 1    50   Input ~ 0
-D-
-Text GLabel 26850 17200 1    50   Input ~ 0
-D-
-Text GLabel 14600 11950 3    50   Input ~ 0
-D+
-Text GLabel 14600 11850 1    50   Input ~ 0
-D-
 Text GLabel 7550 18650 2    50   Input ~ 0
 KEYBOARD_D+
-Text GLabel 7050 18650 3    50   Input ~ 0
-KEYBOARD_D+
-Text GLabel 7100 18550 1    50   Input ~ 0
-KEYBOARD_D-
 Wire Wire Line
 	12950 21450 13750 21450
 Wire Wire Line
 	14150 21450 14950 21450
-Wire Wire Line
-	9600 17200 9700 17200
-Wire Wire Line
-	10300 17200 10400 17200
+$Comp
+L power:+5V #PWR0158
+U 1 1 7282045F
+P 9600 17000
+F 0 "#PWR0158" H 9600 16850 50  0001 C CNN
+F 1 "+5V" H 9615 17173 50  0000 C CNN
+F 2 "" H 9600 17000 50  0001 C CNN
+F 3 "" H 9600 17000 50  0001 C CNN
+	1    9600 17000
+	1    0    0    -1  
+$EndComp
 $Comp
 L random-keyboard-parts:PRTR5V0U2X U8
 U 1 1 7078FCF9
@@ -14093,6 +14038,29 @@ F 1 "PRTR5V0U2X" H 10000 16969 60  0000 C CNN
 F 2 "random-keyboard-parts:SOT143B" H 10000 17150 60  0001 C CNN
 F 3 "" H 10000 17150 60  0001 C CNN
 	1    10000 17150
-	1    0    0    1   
+	-1   0    0    1   
 $EndComp
+Wire Wire Line
+	9700 17200 9600 17200
+Wire Wire Line
+	10400 17200 10300 17200
+Wire Wire Line
+	10300 17100 10600 17100
+Wire Wire Line
+	9400 17100 9700 17100
+Wire Wire Line
+	10400 17300 10400 17200
+$Comp
+L power:GND #PWR0164
+U 1 1 72C3AC24
+P 10400 17300
+F 0 "#PWR0164" H 10400 17050 50  0001 C CNN
+F 1 "GND" H 10405 17127 50  0000 C CNN
+F 2 "" H 10400 17300 50  0001 C CNN
+F 3 "" H 10400 17300 50  0001 C CNN
+	1    10400 17300
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	9600 17200 9600 17000
 $EndSCHEMATC

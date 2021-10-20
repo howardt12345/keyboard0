@@ -189,21 +189,19 @@ Text GLabel 4750 4150 1    50   Input ~ 0
 ROT1_ROW
 Text GLabel 4250 3850 2    50   Input ~ 0
 ROT1_COL
-Text Notes 4550 3300 0    315  ~ 0
+Text Notes 4650 3200 0    315  ~ 0
 0
-Text Notes 6350 3300 0    315  ~ 0
+Text Notes 6100 3250 0    315  ~ 0
 1
-Text Notes 7700 3300 0    315  ~ 0
+Text Notes 7500 3250 0    315  ~ 0
 2
-Text Notes 3500 4050 0    315  ~ 0
-0
-Text Notes 3500 5050 0    315  ~ 0
+Text Notes 3350 5000 0    315  ~ 0
 1
-Text Notes 3500 6050 0    315  ~ 0
+Text Notes 3350 6000 0    315  ~ 0
 2
-Text Notes 3500 7050 0    315  ~ 0
+Text Notes 3350 7000 0    315  ~ 0
 3
-Text Notes 3500 8050 0    315  ~ 0
+Text Notes 3350 8000 0    315  ~ 0
 4
 Wire Wire Line
 	4750 4150 4750 4250
@@ -3389,11 +3387,11 @@ Text GLabel 12550 3100 1    50   Input ~ 0
 COL6
 Text GLabel 8350 3100 1    50   Input ~ 0
 COL3
-Text Notes 11850 3300 0    315  ~ 0
+Text Notes 11750 3250 0    315  ~ 0
 5
-Text Notes 10450 3300 0    315  ~ 0
+Text Notes 10300 3250 0    315  ~ 0
 4
-Text Notes 9100 3300 0    315  ~ 0
+Text Notes 8900 3250 0    315  ~ 0
 3
 $Comp
 L CherryMX:CherryMX_LTST-A683CEGBW MX15
@@ -3466,23 +3464,23 @@ Wire Wire Line
 	4950 4750 5300 4750
 Wire Wire Line
 	5300 4750 5300 4850
-Text Notes 13250 3300 0    315  ~ 0
+Text Notes 13100 3250 0    315  ~ 0
 6
-Text Notes 14700 3300 0    315  ~ 0
+Text Notes 14500 3250 0    315  ~ 0
 7
-Text Notes 16100 3300 0    315  ~ 0
+Text Notes 15900 3250 0    315  ~ 0
 8
-Text Notes 17450 3300 0    315  ~ 0
+Text Notes 17300 3250 0    315  ~ 0
 9
-Text Notes 18700 3300 0    315  ~ 0
+Text Notes 18550 3250 0    315  ~ 0
 10
-Text Notes 20100 3300 0    315  ~ 0
+Text Notes 20000 3250 0    315  ~ 0
 11
-Text Notes 21500 3300 0    315  ~ 0
+Text Notes 21350 3250 0    315  ~ 0
 12
-Text Notes 22900 3300 0    315  ~ 0
+Text Notes 22750 3250 0    315  ~ 0
 13
-Text Notes 24300 3300 0    315  ~ 0
+Text Notes 24150 3250 0    315  ~ 0
 14
 Text GLabel 16750 3100 1    50   Input ~ 0
 COL9
@@ -3508,11 +3506,11 @@ Text GLabel 27950 3100 1    50   Input ~ 0
 COL17
 Wire Wire Line
 	28550 4150 28550 4250
-Text Notes 28200 3300 0    315  ~ 0
+Text Notes 28400 3200 0    315  ~ 0
 17
-Text Notes 27100 3300 0    315  ~ 0
+Text Notes 26950 3250 0    315  ~ 0
 16
-Text Notes 25700 3300 0    315  ~ 0
+Text Notes 25550 3250 0    315  ~ 0
 15
 Text GLabel 28050 3850 2    50   Input ~ 0
 ROT2_COL
@@ -3860,7 +3858,7 @@ Wire Wire Line
 Connection ~ 4150 7650
 Wire Wire Line
 	4150 7650 4150 6650
-Text Notes 3500 9050 0    315  ~ 0
+Text Notes 3350 9000 0    315  ~ 0
 5
 Text GLabel 4050 4850 0    50   Input ~ 0
 DOUT1
@@ -13959,8 +13957,8 @@ Text GLabel 28350 17300 2    50   Input ~ 0
 HUB_PORT7_D+
 Text GLabel 28350 17200 2    50   Input ~ 0
 HUB_PORT7_D-
-Text Notes 28300 11100 2    118  ~ 24
-USB C Outputs (5-7)
+Text Notes 28100 11150 2    118  ~ 24
+USB C Outputs
 Text Notes 21350 11500 0    79   ~ 0
 USB Output 3\n
 Text Notes 21350 13500 0    79   ~ 0
@@ -14012,40 +14010,8 @@ F 3 "~" H 10250 13000 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	10900 13200 10900 13500
-Text GLabel 22650 16250 1    50   Input ~ 0
-D+
-Text GLabel 22650 16350 3    50   Input ~ 0
-D-
-Text GLabel 22650 14300 3    50   Input ~ 0
-D-
-Text GLabel 22650 12250 3    50   Input ~ 0
-D-
-Text GLabel 22650 14200 1    50   Input ~ 0
-D+
-Text GLabel 22650 12150 1    50   Input ~ 0
-D+
-Text GLabel 26900 12300 1    50   Input ~ 0
-D-
-Text GLabel 26900 12400 3    50   Input ~ 0
-D+
-Text GLabel 26850 14850 3    50   Input ~ 0
-D+
-Text GLabel 26850 17300 3    50   Input ~ 0
-D+
-Text GLabel 26850 14750 1    50   Input ~ 0
-D-
-Text GLabel 26850 17200 1    50   Input ~ 0
-D-
-Text GLabel 14600 11950 3    50   Input ~ 0
-D+
-Text GLabel 14600 11850 1    50   Input ~ 0
-D-
 Text GLabel 7550 18650 2    50   Input ~ 0
 KEYBOARD_D+
-Text GLabel 7050 18650 3    50   Input ~ 0
-KEYBOARD_D+
-Text GLabel 7100 18550 1    50   Input ~ 0
-KEYBOARD_D-
 Wire Wire Line
 	12950 21450 13750 21450
 Wire Wire Line
@@ -14095,4 +14061,6 @@ F 3 "" H 10400 17300 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	9600 17200 9600 17000
+Text Notes 3350 4000 0    315  ~ 0
+0
 $EndSCHEMATC
