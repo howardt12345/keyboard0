@@ -13,7 +13,7 @@ Comment,Designator,Footprint,LCSC Part #
 "Red Light emitting diode, small symbol",D10,LED_0805_2012Metric,C84256
 "1N4148 Diode, small symbol",DRST1,D_SOD-123,C81598
 "500mA Resettable fuse, polymeric positive temperature coefficient, small symbol","F1,F2,F3,F4,F5,F6,F7",Fuse_1206_3216Metric,C70069
-"60 @ 100 MHz Ferrite bead, small symbol","FB1,FB2,FB3,FB4,FB5,FB6,FB7",L_0805_2012Metric,"
+"60 @ 100 MHz Ferrite bead, small symbol","FB1,FB2,FB3,FB4,FB5,FB6,FB7,FB8",L_0805_2012Metric,"
 C18305"
 FE2.1 ,IC1,FE2.1,C39693
 "Conn_01x03_Male Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)",J2,JST_SH_SM03B-SRSS-TB_1x03-1MP_P1.00mm_Horizontal,C160403
