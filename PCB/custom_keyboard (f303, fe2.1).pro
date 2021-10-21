@@ -1,4 +1,4 @@
-update=10/16/2021 7:58:22 PM
+update=10/20/2021 11:19:11 PM
 version=1
 last_client=kicad
 [general]
@@ -244,7 +244,7 @@ dPairViaGap=0.25
 [schematic_editor]
 version=1
 PageLayoutDescrFile=
-PlotDirectoryName=Gerber/Draft 1-1/
+PlotDirectoryName=Gerber/Draft 1-2/
 SubpartIdSeparator=0
 SubpartFirstId=65
 NetFmtName=
