@@ -6,4 +6,5 @@
   (lib (name CherryMX)(type Legacy)(uri ${KIPRJMOD}/kicad-libraries/symbols/CherryMX.lib)(options "")(descr ""))
   (lib (name kbd)(type Legacy)(uri ${KIPRJMOD}/kbd/kicad-symbols/kbd.lib)(options "")(descr ""))
   (lib (name MyConnectors)(type Legacy)(uri ${KIPRJMOD}/KiCADComponents/MyConnectors.lib)(options "")(descr ""))
+  (lib (name custom)(type Legacy)(uri ${KIPRJMOD}/custom-footprints.pretty/custom.lib)(options "")(descr ""))
 )
