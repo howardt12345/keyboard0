@@ -87,7 +87,7 @@ Text GLabel 3650 5250 0    50   Input ~ 0
 ROW1
 Text GLabel 3650 4250 0    50   Input ~ 0
 ROW0
-Text Notes 3500 2600 0    118  ~ 24
+Text Notes 3550 2650 0    118  ~ 24
 Keyboard Matrix
 Text Notes 16200 2000 0    276  ~ 55
 Matrix
@@ -14676,4 +14676,45 @@ Wire Wire Line
 Connection ~ 4650 21050
 Wire Wire Line
 	4650 21050 4600 21050
+$Comp
+L Device:Ferrite_Bead_Small FB16
+U 1 1 CAF4EC3C
+P 7150 2100
+F 0 "FB16" V 6913 2100 50  0000 C CNN
+F 1 "60 @ 100 MHz" V 7004 2100 50  0000 C CNN
+F 2 "Inductor_SMD:L_0805_2012Metric" V 7080 2100 50  0001 C CNN
+F 3 "~" H 7150 2100 50  0001 C CNN
+	1    7150 2100
+	0    1    1    0   
+$EndComp
+$Comp
+L power:+5V #PWR094
+U 1 1 CAF4FFC3
+P 7550 2000
+F 0 "#PWR094" H 7550 1850 50  0001 C CNN
+F 1 "+5V" H 7650 2100 50  0000 C CNN
+F 2 "" H 7550 2000 50  0001 C CNN
+F 3 "" H 7550 2000 50  0001 C CNN
+	1    7550 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR093
+U 1 1 CAF54A00
+P 6750 2000
+F 0 "#PWR093" H 6750 1850 50  0001 C CNN
+F 1 "+5V" H 6850 2100 50  0000 C CNN
+F 2 "" H 6750 2000 50  0001 C CNN
+F 3 "" H 6750 2000 50  0001 C CNN
+	1    6750 2000
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	7050 2100 6750 2100
+Wire Wire Line
+	6750 2100 6750 2000
+Wire Wire Line
+	7550 2100 7550 2000
+Wire Wire Line
+	7250 2100 7550 2100
 $EndSCHEMATC
