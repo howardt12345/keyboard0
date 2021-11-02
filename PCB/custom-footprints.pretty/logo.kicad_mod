@@ -1,0 +1,18 @@
+(module logo (layer F.Cu) (tedit 6180ABE0)
+  (descr "Converted using: svg2mod -i Untitled-1.svg -o ./custom-footprints.pretty/logo -f 1 --name logo")
+  (tags svg2mod)
+  (attr virtual)
+  (fp_text reference logo (at 0 -3.048) (layer F.SilkS) hide
+    (effects (font (size 1.524 1.524) (thickness 0.3048)))
+  )
+  (fp_text value G*** (at 0 9.474729) (layer F.SilkS) hide
+    (effects (font (size 1.524 1.524) (thickness 0.3048)))
+  )
+  (fp_poly (pts (xy -2.19075 3.172354) (xy -1.296458 2.278063) (xy -1.613958 1.947333) (xy -3.81 4.146021)
+    (xy -3.479271 4.474104) (xy -2.590271 3.582458) (xy 0.238125 6.426729) (xy 0.648229 6.013979)
+    (xy -2.19075 3.172354)) (layer B.SilkS) (width 0))
+  (fp_poly (pts (xy 0.502708 5.606521) (xy 3.677708 2.431521) (xy 3.264958 2.026708) (xy 1.899708 3.394604)
+    (xy 0.293687 1.785938) (xy 1.661583 0.415396) (xy 1.246187 0) (xy -1.928813 3.175)
+    (xy -1.508125 3.585104) (xy -0.047625 2.119313) (xy 1.561042 3.722688) (xy 0.09525 5.188479)
+    (xy 0.502708 5.606521)) (layer B.SilkS) (width 0))
+)
