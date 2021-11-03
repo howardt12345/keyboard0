@@ -15633,4 +15633,15 @@ Wire Wire Line
 	23850 14400 23950 14400
 Wire Wire Line
 	23400 14400 23550 14400
+$Comp
+L Connector:TestPoint_Small TP54
+U 1 1 823B3101
+P 4700 20900
+F 0 "TP54" H 4748 20946 50  0001 L CNN
+F 1 "Logo" H 4748 20900 50  0000 L CNN
+F 2 "custom-footprints:logo" H 4900 20900 50  0001 C CNN
+F 3 "~" H 4900 20900 50  0001 C CNN
+	1    4700 20900
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
