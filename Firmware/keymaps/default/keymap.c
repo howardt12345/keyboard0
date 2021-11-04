@@ -47,6 +47,23 @@ void matrix_init_user(void) {
 void matrix_scan_user(void) {
 }
 
+bool encoder_update_user(uint8_t index, bool clockwise) {
+    if (index == 0) { /* First encoder, ROT1 */
+        if (clockwise) {
+            tap_code(KC_DOWN);
+        } else {
+            tap_code(KC_UP);
+        }
+    } else if (index == 1) { /* Second encoder, ROT2 */
+        if (clockwise) {
+            tap_code(KC_VOLU);
+        } else {
+            tap_code(KC_VOLD);
+        }
+    }
+    return true;
+}
+
 #ifdef OLED_ENABLE
 void oled_task_user(void) {
     // Host Keyboard Layer Status
