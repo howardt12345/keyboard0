@@ -21,7 +21,7 @@ FE2.1 ,FE2.1,FE2.1,C39693
 "5.1K Resistor, small symbol","R12,R13",R_0805_2012Metric,C27834
 "10k Resistor, small symbol","R15,R16,R17,R18,R20,R21,R22,R25,R27,R38,R39",R_0805_2012Metric,C17414
 "1k Resistor, small symbol",R19,R_0805_2012Metric,C17513
-"100k Resistor, small symbol","R29,R32,R55,R57,R60,R61,R62",R_0603_1608Metric,C25803
+"100k Resistor, small symbol","R29,R32,R57,R60,R62",R_0603_1608Metric,C25803
 "47k Resistor, small symbol",R31,R_0805_2012Metric,C17713
 "2.7k Resistor, small symbol",R51,R_0805_2012Metric,C17530
 "1.5k Resistor, small symbol",R58,R_0805_2012Metric,C4310
@@ -30,7 +30,7 @@ FE2.1 ,FE2.1,FE2.1,C39693
 "SD00HA Current limited 3A power switch, single channel, SOT-23-5",U1,SOT-23-5,C521425
 PRTR5V0U2X ,"U2,U3,U4,U6,U7,U8,U10",SOT143B,C2827688
 "24LC04BT-I/SN I2C Serial EEPROM, 2Kb, DIP-8/SOIC-8/TSSOP-8/DFN-8",U5,24LC04,C511263
-MIC2505 ,"U9,U11",MIC2505,C219158
+MIC2505-1YM ,"U9,U11",MIC2505,C219158
 "XC6206P332MR Positive 60-250mA Low Dropout Regulator, Fixed Output, SOT-23",U12,SOT-23,C5446
 "74LVC1G34 Single Buffef Gate, Low-Voltage CMOS",U13,SOT-23-5,C526347
 "Green Light emitting diode, small symbol","UD1,UD2,UD3,UD4,UD5,UD6,UD7",LED_0805_2012Metric,C2297
