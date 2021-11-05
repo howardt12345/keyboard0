@@ -47,6 +47,10 @@ void matrix_init_user(void) {
 void matrix_scan_user(void) {
 }
 
+bool process_record_user(uint16_t keycode, keyrecord_t *record) {
+	return true;
+}
+
 bool encoder_update_user(uint8_t index, bool clockwise) {
     if (index == 0) { /* First encoder, ROT1 */
         if (clockwise) {
