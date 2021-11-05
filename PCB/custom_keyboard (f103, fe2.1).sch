@@ -15760,18 +15760,6 @@ Wire Wire Line
 	22350 16850 22350 16950
 Wire Wire Line
 	21600 16950 21600 16850
-$Comp
-L MCU_ST_STM32F3:STM32F303CBTx U14
-U 1 1 7717DD5F
-P 6050 17550
-F 0 "U14" H 6000 15961 50  0000 C CNN
-F 1 "STM32F303CBT6" H 6000 15870 50  0000 C CNN
-F 2 "Package_QFP:LQFP-48_7x7mm_P0.5mm" H 5450 16150 50  0001 R CNN
-F 3 "http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00058181.pdf" H 6050 17550 50  0001 C CNN
-F 4 "C108516" H 6050 17550 50  0001 C CNN "LCSC Part"
-	1    6050 17550
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	6150 19050 6150 19100
 Wire Wire Line
@@ -15809,4 +15797,16 @@ Wire Wire Line
 	23850 16250 23950 16250
 Wire Wire Line
 	23550 16250 23650 16250
+$Comp
+L MCU_ST_STM32F1:STM32F103C8Tx U14
+U 1 1 803FC249
+P 6050 17550
+F 0 "U14" H 6000 15961 50  0000 C CNN
+F 1 "STM32F103C8Tx" H 6000 15870 50  0000 C CNN
+F 2 "Package_QFP:LQFP-48_7x7mm_P0.5mm" H 5450 16150 50  0001 R CNN
+F 3 "http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00161566.pdf" H 6050 17550 50  0001 C CNN
+F 4 "C8734" H 6050 17550 50  0001 C CNN "LCSC Part"
+	1    6050 17550
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
