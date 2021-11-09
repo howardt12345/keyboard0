@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   id="Layer_1"
+   data-name="Layer 1"
+   viewBox="0 0 28.34 24.29"
+   version="1.1"
+   sodipodi:docname="Untitled-1.svg"
+   width="7.4982915mm"
+   height="6.4267292mm"
+   inkscape:version="1.1.1 (3bf5ae0d25, 2021-09-20)"
+   inkscape:label="B.SilkS"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <sodipodi:namedview
+     id="namedview33"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     showgrid="false"
+     units="mm"
+     inkscape:document-units="mm"
+     inkscape:zoom="36.7641"
+     inkscape:cx="5.4808903"
+     inkscape:cy="3.8624637"
+     inkscape:window-width="3840"
+     inkscape:window-height="2066"
+     inkscape:window-x="2869"
+     inkscape:window-y="-11"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs24">
+    <style
+       id="style22">.cls-1{fill:#fff;}</style>
+  </defs>
+  <title
+     id="title26">Untitled-1</title>
+  <metadata
+     id="metadata115">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:title>Untitled-1</dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:groupmode="layer"
+     id="layer1"
+     inkscape:label="B.SilkS">
+    <path
+       class="cls-1"
+       d="m 16.3,21.19 12,-12 L 26.74,7.66 21.58,12.83 15.51,6.75 20.68,1.57 19.11,0 l -12,12 1.59,1.55 5.52,-5.54 6.08,6.06 -5.54,5.54 z"
+       id="path28"
+       style="opacity:0.285235" />
+    <path
+       class="cls-1"
+       d="M 6.12,11.99 9.5,8.61 8.3,7.36 0,15.67 1.25,16.91 4.61,13.54 15.3,24.29 16.85,22.73 Z"
+       id="path30" />
+  </g>
+</svg>
