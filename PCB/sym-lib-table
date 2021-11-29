@@ -7,5 +7,4 @@
   (lib (name kbd)(type Legacy)(uri ${KIPRJMOD}/kbd/kicad-symbols/kbd.lib)(options "")(descr ""))
   (lib (name MyConnectors)(type Legacy)(uri ${KIPRJMOD}/KiCADComponents/MyConnectors.lib)(options "")(descr ""))
   (lib (name custom)(type Legacy)(uri ${KIPRJMOD}/custom-footprints.pretty/custom.lib)(options "")(descr ""))
-  (lib (name "custom_keyboard-(f303,-fe2.1)-rescue")(type Legacy)(uri "${KIPRJMOD}/custom_keyboard (f303, fe2.1)-rescue.lib")(options "")(descr ""))
 )
