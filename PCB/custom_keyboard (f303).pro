@@ -1,4 +1,4 @@
-update=11/23/2021 5:27:39 PM
+update=12/4/2021 7:59:35 PM
 version=1
 last_client=kicad
 [general]
@@ -244,7 +244,7 @@ dPairViaGap=0.25
 [schematic_editor]
 version=1
 PageLayoutDescrFile=
-PlotDirectoryName=Gerber/Draft 1-4/Images/2021-10-29
+PlotDirectoryName=D:/Projects/Misc/KiCad/custom_keyboard/PCB/2nd prototype/Pics
 SubpartIdSeparator=0
 SubpartFirstId=65
 NetFmtName=Pcbnew
