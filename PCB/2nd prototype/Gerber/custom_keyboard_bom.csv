@@ -1,25 +1,30 @@
 Comment,Designator,Footprint,LCSC Part #
 "100uF Unpolarized capacitor, small symbol",C1,C_1206_3216Metric,C15008
+"4.7uF Unpolarized capacitor, small symbol",C2,C_0805_2012Metric,C1779
 "20pF Unpolarized capacitor, small symbol","C3,C7",C_0805_2012Metric,C1798
-"100nF Unpolarized capacitor, small symbol","C8,C9,C10,C11,C13,C18,C19,C20,C22",C_0805_2012Metric,C49678
+"1uF Unpolarized capacitor, small symbol","C4,C24,C43,C44",C_0805_2012Metric,C28323
+"100nF Unpolarized capacitor, small symbol","C18,C19,C20,C22",C_0805_2012Metric,C49678
 "10uF Unpolarized capacitor, small symbol",C21,C_0805_2012Metric,C15850
 "10nF Unpolarized capacitor, small symbol",C23,C_0805_2012Metric,C1710
-"1uF Unpolarized capacitor, small symbol","C24,C43,C44",C_0805_2012Metric,C28323
+"Green Light emitting diode, small symbol",D1,LED_0805_2012Metric,C2297
 "Red Light emitting diode, small symbol","D2,D11",LED_0805_2012Metric,C84256
 "SOD-123 Diode, small symbol","D3,D4",D_SOD-123,C81598
 "500mA Resettable fuse, polymeric positive temperature coefficient, small symbol","F1,F8",Fuse_1206_3216Metric,C70069
-"60 @ 100 MHz Ferrite bead, small symbol","FB5,FB15",L_0805_2012Metric,C237300
+"60 @ 100 MHz Ferrite bead, small symbol","FB5,FB15",L_0805_2012Metric,C337883
 "SM04B-SRSS-TB(LF)(SN) Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)",J2,JST-SR-4,C160404
 "SOD-123 Diode, small symbol","KD1,KD2,KD3,KD4,KD5,KD6,KD7,KD8,KD9,KD10,KD11,KD12,KD13,KD14,KD15,KD16,KD17,KD18,KD19,KD20,KD21,KD22,KD23,KD24,KD25,KD26,KD27,KD28,KD29,KD30,KD31,KD32,KD33,KD34,KD35,KD36,KD37,KD38,KD39,KD40,KD41,KD42,KD43,KD44,KD45,KD46,KD47,KD48,KD49,KD50,KD51,KD52,KD53,KD54,KD55,KD56,KD57,KD58,KD59,KD60,KD61,KD62,KD63,KD64,KD65,KD66,KD67,KD68,KD69,KD70,KD71,KD72,KD73,KD74,KD75,KD76,KD77,KD78,KD79,KD80,KD81,KD82,KD83,KD84,KD85,KD86,KD87,KD88,KD89,KD90",D_SOD-123,C81598
 "10uF Unpolarized capacitor, small symbol","LC1,LC2,LC3,LC4,LC5,LC6,LC7,LC8,LC9,LC10,LC11,LC12,LC13,LC14,LC15,LC16,LC17,LC18,LC19,LC20,LC21,LC22,LC23,LC24,LC25,LC26,LC27,LC28,LC29,LC30,LC31,LC32,LC33,LC34,LC35,LC36,LC37,LC38,LC39,LC40,LC41,LC42,LC43,LC44,LC45,LC46,LC47,LC48,LC49,LC50,LC51,LC52,LC53,LC54,LC55,LC56,LC57,LC58,LC59,LC60,LC61,LC62,LC63,LC64,LC65,LC66,LC67,LC68,LC69,LC70,LC71,LC72,LC73,LC74,LC75,LC76,LC77,LC78,LC79,LC80,LC81,LC82,LC83,LC84,LC85,LC86,LC87,LC88,LC89,LC90",C_0805_2012Metric,C15850
+"2N7002 0.115A Id, 60V Vds, N-Channel MOSFET, SOT-23",Q1,SOT-23,C8545
 "470 Resistor, small symbol",R1,R_0805_2012Metric,C17710
+"680 Resistor, small symbol","R2,R64",R_0805_2012Metric,C17798
 "22 Resistor, small symbol","R3,R4",R_0805_2012Metric,C17561
-"510 Resistor, small symbol","R8,R24,R64",R_0805_2012Metric,C17734
+"10k Resistor, small symbol","R5,R6,R27",R_0805_2012Metric,C17414
+"100k Resistor, small symbol",R7,R_0805_2012Metric,C25271
+"510 Resistor, small symbol",R8,R_0805_2012Metric,C17734
 "5.1K Resistor, small symbol","R12,R13",R_0805_2012Metric,C27834
-"10k Resistor, small symbol","R15,R16,R17,R18,R22,R25,R27,R38,R39",R_0805_2012Metric,C17414
-"1k Resistor, small symbol",R19,R_0805_2012Metric,C17513
+"4.7k Resistor, small symbol","R38,R39",R_0805_2012Metric,C17673
 "1.5k Resistor, small symbol",R58,R_0805_2012Metric,C4310
-"SW_Push Push button switch, generic, two pins","SW1,SW2",SKQG-1155865,C318884
+"SW_Push Push button switch, generic, two pins",SW1,SKQG-1155865,C318884
 "SRV05-4 ESD Protection Diodes with Low Clamping Voltage, SOT-23-6",U1,SOT-23-6,C85364
 "XC6206P332MR Positive 60-250mA Low Dropout Regulator, Fixed Output, SOT-23",U12,SOT-23,C5446
 "74LVC1G34 Single Buffef Gate, Low-Voltage CMOS",U13,SOT-23-5,C526347
