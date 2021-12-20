@@ -6,20 +6,20 @@ Comment,Designator,Footprint,LCSC Part #
 "10uF Unpolarized capacitor, small symbol",C21,C_0805_2012Metric,C15850
 "10nF Unpolarized capacitor, small symbol",C23,C_0805_2012Metric,C1710
 "Green Light emitting diode, small symbol",D1,LED_0805_2012Metric,C84256
-"Red Light emitting diode, small symbol","D2,D11",LED_0805_2012Metric,C84256
+"Red Light emitting diode, small symbol","D2,D5,D11",LED_0805_2012Metric,C84256
 "SOD-123 Diode, small symbol","D3,D4",D_SOD-123,C81598
-"500mA Resettable fuse, polymeric positive temperature coefficient, small symbol",F8,Fuse_1206_3216Metric,C70069
-"60 @ 100 MHz Ferrite bead, small symbol","FB5,FB15",L_0805_2012Metric,C337883
+"500mA Resettable fuse, polymeric positive temperature coefficient, small symbol","F1,F8",Fuse_1206_3216Metric,C70069
+"60 @ 100 MHz Ferrite bead, small symbol","FB1,FB5,FB15",L_0805_2012Metric,C337883
 IS31FL3731-QFLS2 ,"I1,I2,I3",QFN-28-1EP_4x4mm_P0.4mm_EP2.3x2.3mm,C191206
 "SM04B-SRSS-TB(LF)(SN) Generic connectable mounting pin connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)",J2,JST-SR-4,C160404
+"Conn_01x03 Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)",J3,PinHeader_1x03_P2.54mm_Vertical,
 "SOD-123 Diode, small symbol","KD1,KD2,KD3,KD4,KD5,KD6,KD7,KD8,KD9,KD10,KD11,KD12,KD13,KD14,KD15,KD16,KD17,KD18,KD19,KD20,KD21,KD22,KD23,KD24,KD25,KD26,KD27,KD28,KD29,KD30,KD31,KD32,KD33,KD34,KD35,KD36,KD37,KD38,KD39,KD40,KD41,KD42,KD43,KD44,KD45,KD46,KD47,KD48,KD49,KD50,KD51,KD52,KD53,KD54,KD55,KD56,KD57,KD58,KD59,KD60,KD61,KD62,KD63,KD64,KD65,KD66,KD67,KD68,KD69,KD70,KD71,KD72,KD73,KD74,KD75,KD76,KD77,KD78,KD79,KD80,KD81,KD82,KD83,KD84,KD85,KD86,KD87,KD88,KD89,KD90",D_SOD-123,C81598
 "LED_ABGR RGB LED, anode/blue/green/red","LED1,LED2,LED3,LED4,LED5,LED6,LED7,LED8,LED9,LED10,LED11,LED12,LED13,LED14,LED15,LED16,LED17,LED18,LED19,LED20,LED21,LED22,LED23,LED24,LED25,LED26,LED27,LED28,LED29,LED30,LED31,LED32,LED33,LED34,LED35,LED36,LED37,LED38,LED39,LED40,LED41,LED42,LED43,LED44,LED45,LED46,LED47,LED48,LED49,LED50,LED51,LED52,LED53,LED54,LED55,LED56,LED57,LED58,LED59,LED60,LED61,LED62,LED63,LED64,LED65,LED66,LED67,LED68,LED69,LED70,LED71,LED72,LED73,LED74,LED75,LED76,LED77,LED78,LED79,LED80,LED81,LED82,LED83,LED84,LED85,LED86,LED87,LED88,LED89,LED90",MHT151RGBCT_with_outline,C409782
 "2N7002 0.115A Id, 60V Vds, N-Channel MOSFET, SOT-23",Q1,SOT-23,C8545
-"680 Resistor, small symbol","R2,R64",R_0805_2012Metric,C17798
+"680 Resistor, small symbol","R1,R2,R8,R64",R_0805_2012Metric,C17798
 "22 Resistor, small symbol","R3,R4",R_0805_2012Metric,C17561
 "10k Resistor, small symbol","R5,R6,R27",R_0805_2012Metric,C17414
 "100k Resistor, small symbol",R7,R_0603_1608Metric,C25803
-"510 Resistor, small symbol",R8,R_0805_2012Metric,C17734
 "20k Resistor, small symbol","R11,R18,R19",R_0805_2012Metric,C17798
 "5.1K Resistor, small symbol","R12,R13",R_0805_2012Metric,C27834
 "4.7k Resistor, small symbol","R38,R39",R_0805_2012Metric,C17673
@@ -27,7 +27,6 @@ IS31FL3731-QFLS2 ,"I1,I2,I3",QFN-28-1EP_4x4mm_P0.4mm_EP2.3x2.3mm,C191206
 "SW_Push Push button switch, generic, two pins",SW1,SKQG-1155865,C318884
 "SRV05-4 ESD Protection Diodes with Low Clamping Voltage, SOT-23-6",U1,SOT-23-6,C85364
 "XC6206P332MR Positive 60-250mA Low Dropout Regulator, Fixed Output, SOT-23",U12,SOT-23,C5446
-"74LVC1G34 Single Buffef Gate, Low-Voltage CMOS",U13,SOT-23-5,C526347
 "STM32F303CBT6 ARM Cortex-M4 MCU, 128KB flash, 32KB RAM, 72MHz, 2-3.6V, 37 GPIO, LQFP-48",U14,LQFP-48_7x7mm_P0.5mm,C108516
 HRO-TYPE-C-31-M-12 ,USB1,HRO-TYPE-C-31-M-12-Assembly,C165948
 "8MHz Two pin crystal, small symbol",Y2,Crystal_SMD_HC49-SD,C12674
