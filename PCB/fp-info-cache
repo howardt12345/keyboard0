@@ -1,4 +1,4 @@
-19764694616475902
+19838226162876423
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -6124,6 +6124,146 @@ capacitor tantalum
 0
 2
 2
+CherryMX_PCB_KailhSocket
+CherryMX_1.00u_PCB_KailhSocket
+Cherry MX switch footprint. Size: 1.00u, Mount type: PCB, Using Kailh Socket: yes, Stabilizer: n/a, Lighting: none
+CherryMX 1.00u PCB KailhSocket
+0
+2
+2
+CherryMX_PCB_KailhSocket
+CherryMX_1.25u_PCB_KailhSocket
+Cherry MX switch footprint. Size: 1.25u, Mount type: PCB, Using Kailh Socket: yes, Stabilizer: n/a, Lighting: none
+CherryMX 1.25u PCB KailhSocket
+0
+2
+2
+CherryMX_PCB_KailhSocket
+CherryMX_1.50u_PCB_KailhSocket
+Cherry MX switch footprint. Size: 1.50u, Mount type: PCB, Using Kailh Socket: yes, Stabilizer: n/a, Lighting: none
+CherryMX 1.50u PCB KailhSocket
+0
+2
+2
+CherryMX_PCB_KailhSocket
+CherryMX_1.75u_PCB_KailhSocket
+Cherry MX switch footprint. Size: 1.75u, Mount type: PCB, Using Kailh Socket: yes, Stabilizer: n/a, Lighting: none
+CherryMX 1.75u PCB KailhSocket
+0
+2
+2
+CherryMX_PCB_KailhSocket
+CherryMX_2.00u_PCB_KailhSocket
+Cherry MX switch footprint. Size: 2.00u, Mount type: PCB, Using Kailh Socket: yes, Stabilizer: Plate mounted, Lighting: none
+CherryMX 2.00u PCB KailhSocket
+0
+2
+2
+CherryMX_PCB_KailhSocket
+CherryMX_2.25u_PCB_KailhSocket
+Cherry MX switch footprint. Size: 2.25u, Mount type: PCB, Using Kailh Socket: yes, Stabilizer: Plate mounted, Lighting: none
+CherryMX 2.25u PCB KailhSocket
+0
+2
+2
+CherryMX_PCB_KailhSocket
+CherryMX_2.50u_PCB_KailhSocket
+Cherry MX switch footprint. Size: 2.50u, Mount type: PCB, Using Kailh Socket: yes, Stabilizer: Plate mounted, Lighting: none
+CherryMX 2.50u PCB KailhSocket
+0
+2
+2
+CherryMX_PCB_KailhSocket
+CherryMX_2.75u_PCB_KailhSocket
+Cherry MX switch footprint. Size: 2.75u, Mount type: PCB, Using Kailh Socket: yes, Stabilizer: Plate mounted, Lighting: none
+CherryMX 2.75u PCB KailhSocket
+0
+2
+2
+CherryMX_PCB_KailhSocket
+CherryMX_3.00u_PCB_KailhSocket
+Cherry MX switch footprint. Size: 3.00u, Mount type: PCB, Using Kailh Socket: yes, Stabilizer: Plate mounted, Lighting: none
+CherryMX 3.00u PCB KailhSocket
+0
+2
+2
+CherryMX_PCB_KailhSocket
+CherryMX_4.00u_PCB_KailhSocket
+Cherry MX switch footprint. Size: 4.00u, Mount type: PCB, Using Kailh Socket: yes, Stabilizer: Plate mounted, Lighting: none
+CherryMX 4.00u PCB KailhSocket
+0
+2
+2
+CherryMX_PCB_KailhSocket
+CherryMX_4.50u_PCB_KailhSocket
+Cherry MX switch footprint. Size: 4.50u, Mount type: PCB, Using Kailh Socket: yes, Stabilizer: Plate mounted, Lighting: none
+CherryMX 4.50u PCB KailhSocket
+0
+2
+2
+CherryMX_PCB_KailhSocket
+CherryMX_5.50u_PCB_KailhSocket
+Cherry MX switch footprint. Size: 5.50u, Mount type: PCB, Using Kailh Socket: yes, Stabilizer: Plate mounted, Lighting: none
+CherryMX 5.50u PCB KailhSocket
+0
+2
+2
+CherryMX_PCB_KailhSocket
+CherryMX_6.00u_PCB_KailhSocket
+Cherry MX switch footprint. Size: 6.00u, Mount type: PCB, Using Kailh Socket: yes, Stabilizer: Plate mounted, Lighting: none
+CherryMX 6.00u PCB KailhSocket
+0
+2
+2
+CherryMX_PCB_KailhSocket
+CherryMX_6.25u_PCB_KailhSocket
+Cherry MX switch footprint. Size: 6.25u, Mount type: PCB, Using Kailh Socket: yes, Stabilizer: Plate mounted, Lighting: none
+CherryMX 6.25u PCB KailhSocket
+0
+2
+2
+CherryMX_PCB_KailhSocket
+CherryMX_6.50u_PCB_KailhSocket
+Cherry MX switch footprint. Size: 6.50u, Mount type: PCB, Using Kailh Socket: yes, Stabilizer: Plate mounted, Lighting: none
+CherryMX 6.50u PCB KailhSocket
+0
+2
+2
+CherryMX_PCB_KailhSocket
+CherryMX_7.00u_PCB_KailhSocket
+Cherry MX switch footprint. Size: 7.00u, Mount type: PCB, Using Kailh Socket: yes, Stabilizer: Plate mounted, Lighting: none
+CherryMX 7.00u PCB KailhSocket
+0
+2
+2
+CherryMX_PCB_KailhSocket
+CherryMX_8.00u_PCB_KailhSocket
+Cherry MX switch footprint. Size: 8.00u, Mount type: PCB, Using Kailh Socket: yes, Stabilizer: Plate mounted, Lighting: none
+CherryMX 8.00u PCB KailhSocket
+0
+2
+2
+CherryMX_PCB_KailhSocket
+CherryMX_9.00u_PCB_KailhSocket
+Cherry MX switch footprint. Size: 9.00u, Mount type: PCB, Using Kailh Socket: yes, Stabilizer: Plate mounted, Lighting: none
+CherryMX 9.00u PCB KailhSocket
+0
+2
+2
+CherryMX_PCB_KailhSocket
+CherryMX_9.75u_PCB_KailhSocket
+Cherry MX switch footprint. Size: 9.75u, Mount type: PCB, Using Kailh Socket: yes, Stabilizer: Plate mounted, Lighting: none
+CherryMX 9.75u PCB KailhSocket
+0
+2
+2
+CherryMX_PCB_KailhSocket
+CherryMX_10.00u_PCB_KailhSocket
+Cherry MX switch footprint. Size: 10.00u, Mount type: PCB, Using Kailh Socket: yes, Stabilizer: Plate mounted, Lighting: none
+CherryMX 10.00u PCB KailhSocket
+0
+2
+2
 CherryMX_PCB_KailhSocket_LTST-A683CEGBW
 CherryMX_1.00u_PCB_KailhSocket_LTST-A683CEGBW
 Cherry MX switch footprint. Size: 1.00u, Mount type: PCB, Using Kailh Socket: yes, Stabilizer: n/a, Lighting: LTST-A683CEGBW
@@ -6264,6 +6404,118 @@ CherryMX 10.00u PCB KailhSocket LTST-A683CEGBW
 0
 6
 6
+CherryMX_PCB_KailhSocket_StabWireBottom
+CherryMX_2.00u_PCB_KailhSocket_StabWireBottom
+Cherry MX switch footprint. Size: 2.00u, Mount type: PCB, Using Kailh Socket: yes, Stabilizer: PCB mounted (Wire Bottom), Lighting: none
+CherryMX 2.00u PCB KailhSocket StabWireBottom
+0
+2
+2
+CherryMX_PCB_KailhSocket_StabWireBottom
+CherryMX_2.25u_PCB_KailhSocket_StabWireBottom
+Cherry MX switch footprint. Size: 2.25u, Mount type: PCB, Using Kailh Socket: yes, Stabilizer: PCB mounted (Wire Bottom), Lighting: none
+CherryMX 2.25u PCB KailhSocket StabWireBottom
+0
+2
+2
+CherryMX_PCB_KailhSocket_StabWireBottom
+CherryMX_2.50u_PCB_KailhSocket_StabWireBottom
+Cherry MX switch footprint. Size: 2.50u, Mount type: PCB, Using Kailh Socket: yes, Stabilizer: PCB mounted (Wire Bottom), Lighting: none
+CherryMX 2.50u PCB KailhSocket StabWireBottom
+0
+2
+2
+CherryMX_PCB_KailhSocket_StabWireBottom
+CherryMX_2.75u_PCB_KailhSocket_StabWireBottom
+Cherry MX switch footprint. Size: 2.75u, Mount type: PCB, Using Kailh Socket: yes, Stabilizer: PCB mounted (Wire Bottom), Lighting: none
+CherryMX 2.75u PCB KailhSocket StabWireBottom
+0
+2
+2
+CherryMX_PCB_KailhSocket_StabWireBottom
+CherryMX_3.00u_PCB_KailhSocket_StabWireBottom
+Cherry MX switch footprint. Size: 3.00u, Mount type: PCB, Using Kailh Socket: yes, Stabilizer: PCB mounted (Wire Bottom), Lighting: none
+CherryMX 3.00u PCB KailhSocket StabWireBottom
+0
+2
+2
+CherryMX_PCB_KailhSocket_StabWireBottom
+CherryMX_4.00u_PCB_KailhSocket_StabWireBottom
+Cherry MX switch footprint. Size: 4.00u, Mount type: PCB, Using Kailh Socket: yes, Stabilizer: PCB mounted (Wire Bottom), Lighting: none
+CherryMX 4.00u PCB KailhSocket StabWireBottom
+0
+2
+2
+CherryMX_PCB_KailhSocket_StabWireBottom
+CherryMX_4.50u_PCB_KailhSocket_StabWireBottom
+Cherry MX switch footprint. Size: 4.50u, Mount type: PCB, Using Kailh Socket: yes, Stabilizer: PCB mounted (Wire Bottom), Lighting: none
+CherryMX 4.50u PCB KailhSocket StabWireBottom
+0
+2
+2
+CherryMX_PCB_KailhSocket_StabWireBottom
+CherryMX_5.50u_PCB_KailhSocket_StabWireBottom
+Cherry MX switch footprint. Size: 5.50u, Mount type: PCB, Using Kailh Socket: yes, Stabilizer: PCB mounted (Wire Bottom), Lighting: none
+CherryMX 5.50u PCB KailhSocket StabWireBottom
+0
+2
+2
+CherryMX_PCB_KailhSocket_StabWireBottom
+CherryMX_6.00u_PCB_KailhSocket_StabWireBottom
+Cherry MX switch footprint. Size: 6.00u, Mount type: PCB, Using Kailh Socket: yes, Stabilizer: PCB mounted (Wire Bottom), Lighting: none
+CherryMX 6.00u PCB KailhSocket StabWireBottom
+0
+2
+2
+CherryMX_PCB_KailhSocket_StabWireBottom
+CherryMX_6.25u_PCB_KailhSocket_StabWireBottom
+Cherry MX switch footprint. Size: 6.25u, Mount type: PCB, Using Kailh Socket: yes, Stabilizer: PCB mounted (Wire Bottom), Lighting: none
+CherryMX 6.25u PCB KailhSocket StabWireBottom
+0
+2
+2
+CherryMX_PCB_KailhSocket_StabWireBottom
+CherryMX_6.50u_PCB_KailhSocket_StabWireBottom
+Cherry MX switch footprint. Size: 6.50u, Mount type: PCB, Using Kailh Socket: yes, Stabilizer: PCB mounted (Wire Bottom), Lighting: none
+CherryMX 6.50u PCB KailhSocket StabWireBottom
+0
+2
+2
+CherryMX_PCB_KailhSocket_StabWireBottom
+CherryMX_7.00u_PCB_KailhSocket_StabWireBottom
+Cherry MX switch footprint. Size: 7.00u, Mount type: PCB, Using Kailh Socket: yes, Stabilizer: PCB mounted (Wire Bottom), Lighting: none
+CherryMX 7.00u PCB KailhSocket StabWireBottom
+0
+2
+2
+CherryMX_PCB_KailhSocket_StabWireBottom
+CherryMX_8.00u_PCB_KailhSocket_StabWireBottom
+Cherry MX switch footprint. Size: 8.00u, Mount type: PCB, Using Kailh Socket: yes, Stabilizer: PCB mounted (Wire Bottom), Lighting: none
+CherryMX 8.00u PCB KailhSocket StabWireBottom
+0
+2
+2
+CherryMX_PCB_KailhSocket_StabWireBottom
+CherryMX_9.00u_PCB_KailhSocket_StabWireBottom
+Cherry MX switch footprint. Size: 9.00u, Mount type: PCB, Using Kailh Socket: yes, Stabilizer: PCB mounted (Wire Bottom), Lighting: none
+CherryMX 9.00u PCB KailhSocket StabWireBottom
+0
+2
+2
+CherryMX_PCB_KailhSocket_StabWireBottom
+CherryMX_9.75u_PCB_KailhSocket_StabWireBottom
+Cherry MX switch footprint. Size: 9.75u, Mount type: PCB, Using Kailh Socket: yes, Stabilizer: PCB mounted (Wire Bottom), Lighting: none
+CherryMX 9.75u PCB KailhSocket StabWireBottom
+0
+2
+2
+CherryMX_PCB_KailhSocket_StabWireBottom
+CherryMX_10.00u_PCB_KailhSocket_StabWireBottom
+Cherry MX switch footprint. Size: 10.00u, Mount type: PCB, Using Kailh Socket: yes, Stabilizer: PCB mounted (Wire Bottom), Lighting: none
+CherryMX 10.00u PCB KailhSocket StabWireBottom
+0
+2
+2
 CherryMX_PCB_KailhSocket_StabWireBottom_LTST-A683CEGBW
 CherryMX_2.00u_PCB_KailhSocket_StabWireBottom_LTST-A683CEGBW
 Cherry MX switch footprint. Size: 2.00u, Mount type: PCB, Using Kailh Socket: yes, Stabilizer: PCB mounted (Wire Bottom), Lighting: LTST-A683CEGBW
@@ -84581,12 +84833,26 @@ custom-footprints
 8
 8
 custom-footprints
+CherryMX_1.00u_PCB_KailhSocket
+Cherry MX switch footprint. Size: 1.00u, Mount type: PCB, Using Kailh Socket: yes, Stabilizer: n/a, Lighting: none
+CherryMX 1.00u PCB KailhSocket
+0
+2
+2
+custom-footprints
 CherryMX_1.00u_PCB_KailhSocket_LTST-A683CEGBW
 Cherry MX switch footprint. Size: 1.00u, Mount type: PCB, Using Kailh Socket: yes, Stabilizer: n/a, Lighting: LTST-A683CEGBW
 CherryMX 1.00u PCB KailhSocket LTST-A683CEGBW
 0
 6
 6
+custom-footprints
+CherryMX_1.25u_PCB_KailhSocket
+Cherry MX switch footprint. Size: 1.25u, Mount type: PCB, Using Kailh Socket: yes, Stabilizer: n/a, Lighting: none
+CherryMX 1.25u PCB KailhSocket
+0
+2
+2
 custom-footprints
 CherryMX_1.25u_PCB_KailhSocket_LTST-A683CEGBW
 Cherry MX switch footprint. Size: 1.25u, Mount type: PCB, Using Kailh Socket: yes, Stabilizer: n/a, Lighting: LTST-A683CEGBW
@@ -84595,12 +84861,26 @@ CherryMX 1.25u PCB KailhSocket LTST-A683CEGBW
 6
 6
 custom-footprints
+CherryMX_1.50u_PCB_KailhSocket
+Cherry MX switch footprint. Size: 1.50u, Mount type: PCB, Using Kailh Socket: yes, Stabilizer: n/a, Lighting: none
+CherryMX 1.50u PCB KailhSocket
+0
+2
+2
+custom-footprints
 CherryMX_1.50u_PCB_KailhSocket_LTST-A683CEGBW
 Cherry MX switch footprint. Size: 1.50u, Mount type: PCB, Using Kailh Socket: yes, Stabilizer: n/a, Lighting: LTST-A683CEGBW
 CherryMX 1.50u PCB KailhSocket LTST-A683CEGBW
 0
 6
 6
+custom-footprints
+CherryMX_1.75u_PCB_KailhSocket
+Cherry MX switch footprint. Size: 1.75u, Mount type: PCB, Using Kailh Socket: yes, Stabilizer: n/a, Lighting: none
+CherryMX 1.75u PCB KailhSocket
+0
+2
+2
 custom-footprints
 CherryMX_1.75u_PCB_KailhSocket_LTST-A683CEGBW
 Cherry MX switch footprint. Size: 1.75u, Mount type: PCB, Using Kailh Socket: yes, Stabilizer: n/a, Lighting: LTST-A683CEGBW
@@ -84616,6 +84896,13 @@ CherryMX 2.00u PCB KailhSocket LTST-A683CEGBW
 6
 6
 custom-footprints
+CherryMX_2.00u_PCB_KailhSocket_StabWireBottom
+Cherry MX switch footprint. Size: 2.00u, Mount type: PCB, Using Kailh Socket: yes, Stabilizer: PCB mounted (Wire Bottom), Lighting: none
+CherryMX 2.00u PCB KailhSocket StabWireBottom
+0
+2
+2
+custom-footprints
 CherryMX_2.25u_PCB_KailhSocket_LTST-A683CEGBW
 Cherry MX switch footprint. Size: 2.25u, Mount type: PCB, Using Kailh Socket: yes, Stabilizer: Plate mounted, Lighting: LTST-A683CEGBW
 CherryMX 2.25u PCB KailhSocket LTST-A683CEGBW
@@ -84623,12 +84910,33 @@ CherryMX 2.25u PCB KailhSocket LTST-A683CEGBW
 6
 6
 custom-footprints
+CherryMX_2.25u_PCB_KailhSocket_StabWireBottom
+Cherry MX switch footprint. Size: 2.25u, Mount type: PCB, Using Kailh Socket: yes, Stabilizer: PCB mounted (Wire Bottom), Lighting: none
+CherryMX 2.25u PCB KailhSocket StabWireBottom
+0
+2
+2
+custom-footprints
+CherryMX_2.50u_PCB_KailhSocket_StabWireBottom
+Cherry MX switch footprint. Size: 2.50u, Mount type: PCB, Using Kailh Socket: yes, Stabilizer: PCB mounted (Wire Bottom), Lighting: none
+CherryMX 2.50u PCB KailhSocket StabWireBottom
+0
+2
+2
+custom-footprints
 CherryMX_2.75u_PCB_KailhSocket_LTST-A683CEGBW
 Cherry MX switch footprint. Size: 2.75u, Mount type: PCB, Using Kailh Socket: yes, Stabilizer: Plate mounted, Lighting: LTST-A683CEGBW
 CherryMX 2.75u PCB KailhSocket LTST-A683CEGBW
 0
 6
 6
+custom-footprints
+CherryMX_2.75u_PCB_KailhSocket_StabWireBottom
+Cherry MX switch footprint. Size: 2.75u, Mount type: PCB, Using Kailh Socket: yes, Stabilizer: PCB mounted (Wire Bottom), Lighting: none
+CherryMX 2.75u PCB KailhSocket StabWireBottom
+0
+2
+2
 custom-footprints
 CherryMX_3.00u_PCB_KailhSocket_LTST-A683CEGBW
 Cherry MX switch footprint. Size: 3.00u, Mount type: PCB, Using Kailh Socket: yes, Stabilizer: Plate mounted, Lighting: LTST-A683CEGBW
@@ -84650,6 +84958,13 @@ CherryMX 6.25u PCB KailhSocket LTST-A683CEGBW
 0
 6
 6
+custom-footprints
+CherryMX_6.25u_PCB_KailhSocket_StabWireBottom
+Cherry MX switch footprint. Size: 6.25u, Mount type: PCB, Using Kailh Socket: yes, Stabilizer: PCB mounted (Wire Bottom), Lighting: none
+CherryMX 6.25u PCB KailhSocket StabWireBottom
+0
+2
+2
 custom-footprints
 FE2.1
 

@@ -8,4 +8,6 @@
   (lib (name CherryMX_PCB_KailhSocket_LTST-A683CEGBW)(type KiCad)(uri ${KIPRJMOD}/kicad-libraries/footprints/CherryMX_PCB_KailhSocket_LTST-A683CEGBW.pretty)(options "")(descr ""))
   (lib (name CherryMX_PCB_KailhSocket_StabWireBottom_LTST-A683CEGBW)(type KiCad)(uri ${KIPRJMOD}/kicad-libraries/footprints/CherryMX_PCB_KailhSocket_StabWireBottom_LTST-A683CEGBW.pretty)(options "")(descr ""))
   (lib (name CherryMX_PCB_KailhSocket_StabWireTop_LTST-A683CEGBW)(type KiCad)(uri ${KIPRJMOD}/kicad-libraries/footprints/CherryMX_PCB_KailhSocket_StabWireTop_LTST-A683CEGBW.pretty)(options "")(descr ""))
+  (lib (name CherryMX_PCB_KailhSocket)(type KiCad)(uri ${KIPRJMOD}/kicad-libraries/footprints/CherryMX_PCB_KailhSocket.pretty)(options "")(descr ""))
+  (lib (name CherryMX_PCB_KailhSocket_StabWireBottom)(type KiCad)(uri ${KIPRJMOD}/kicad-libraries/footprints/CherryMX_PCB_KailhSocket_StabWireBottom.pretty)(options "")(descr ""))
 )
