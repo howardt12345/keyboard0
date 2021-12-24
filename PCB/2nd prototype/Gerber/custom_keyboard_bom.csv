@@ -17,7 +17,6 @@ IS31FL3731-QFLS2 ,"I1,I2,I3",QFN-28-1EP_4x4mm_P0.4mm_EP2.3x2.3mm,C191206
 "2N7002 0.115A Id, 60V Vds, N-Channel MOSFET, SOT-23",Q1,SOT-23,C8545
 "680 Resistor, small symbol","R1,R8",R_0805_2012Metric,C17798
 "510 Resistor, small symbol","R2,R64",R_0805_2012Metric,C17734
-"22 Resistor, small symbol","R3,R4",R_0805_2012Metric,C17561
 "10k Resistor, small symbol","R5,R6,R27",R_0805_2012Metric,C17414
 "100k Resistor, small symbol",R7,R_0603_1608Metric,C25803
 "20k Resistor, small symbol","R11,R15,R16",R_0805_2012Metric,C4328
