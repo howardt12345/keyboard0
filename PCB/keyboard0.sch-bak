@@ -8472,11 +8472,11 @@ Wire Notes Line
 	700  8850 700  1000
 Wire Notes Line
 	700  1000 19000 1000
-Text Notes 25650 12150 0    118  ~ 24
+Text Notes 25600 12150 0    118  ~ 24
 I3
-Text Notes 25650 8450 0    118  ~ 24
+Text Notes 25600 8450 0    118  ~ 24
 I2
-Text Notes 25650 4750 0    118  ~ 24
+Text Notes 25600 4750 0    118  ~ 24
 I1
 Wire Notes Line
 	19500 4550 32100 4550
