@@ -10,6 +10,7 @@
 The PCB uses Kailh Hot-swap sockets. The original specifications also wanted a USB hub, which will be implemented through a separate USB hub daughterboard. 
 
 [The layout on keyboard layout editor](http://www.keyboard-layout-editor.com/#/gists/689bc560553c37fa0d04dfba9f11ed96)
+
 [Prototype showcase photos on @howardt12345](https://www.instagram.com/p/CYXeXJdg_eP/)
 
 ---
