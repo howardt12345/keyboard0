@@ -1,3 +1,4 @@
 (fp_lib_table
-  (lib (name random-keyboard-parts)(type KiCad)(uri D:/Projects/Misc/KiCad/keyboard0/PCB/random-keyboard-parts.pretty)(options "")(descr ""))
+  (lib (name "random-keyboard-parts")(type "KiCad")(uri "D:/Projects/Misc/KiCad/keyboard0/PCB/random-keyboard-parts.pretty")(options "")(descr ""))
+  (lib (name "custom-footprints")(type "KiCad")(uri "D:/Projects/Misc/KiCad/keyboard0/PCB/custom-footprints.pretty")(options "")(descr ""))
 )
