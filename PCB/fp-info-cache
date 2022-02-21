@@ -1,4 +1,4 @@
-20717475013821707
+20719120421039738
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -87564,6 +87564,13 @@ CherryMX 2.25u PCB KailhSocket LTST-A683CEGBW
 6
 custom-footprints
 CherryMX_2.25u_PCB_KailhSocket_StabWireBottom
+Cherry MX switch footprint. Size: 2.25u, Mount type: PCB, Using Kailh Socket: yes, Stabilizer: PCB mounted (Wire Bottom), Lighting: none
+CherryMX 2.25u PCB KailhSocket StabWireBottom
+0
+10
+2
+custom-footprints
+CherryMX_2.25u_PCB_KailhSocket_StabWireTop
 Cherry MX switch footprint. Size: 2.25u, Mount type: PCB, Using Kailh Socket: yes, Stabilizer: PCB mounted (Wire Bottom), Lighting: none
 CherryMX 2.25u PCB KailhSocket StabWireBottom
 0

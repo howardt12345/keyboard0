@@ -16109,7 +16109,7 @@
     (uuid 00000000-0000-0000-0000-000091a30e9e)
     (property "Reference" "MX64" (id 0) (at 392.43 146.431 0))
     (property "Value" "ENTER" (id 1) (at 392.43 148.7424 0))
-    (property "Footprint" "custom-footprints:CherryMX_2.25u_PCB_KailhSocket_StabWireBottom" (id 2) (at 392.43 158.75 0)
+    (property "Footprint" "custom-footprints:CherryMX_2.25u_PCB_KailhSocket_StabWireTop" (id 2) (at 392.43 158.75 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (id 3) (at 392.43 158.75 0)
@@ -25612,7 +25612,7 @@
       (reference "MX63") (unit 1) (value "'/\"") (footprint "custom-footprints:CherryMX_1.00u_PCB_KailhSocket")
     )
     (path "/00000000-0000-0000-0000-000091a30e9e"
-      (reference "MX64") (unit 1) (value "ENTER") (footprint "custom-footprints:CherryMX_2.25u_PCB_KailhSocket_StabWireBottom")
+      (reference "MX64") (unit 1) (value "ENTER") (footprint "custom-footprints:CherryMX_2.25u_PCB_KailhSocket_StabWireTop")
     )
     (path "/00000000-0000-0000-0000-00006f6c5462"
       (reference "MX65") (unit 1) (value "M4") (footprint "custom-footprints:CherryMX_1.00u_PCB_KailhSocket")
