@@ -1,7 +1,7 @@
 # 1st prototype of keyboard0
 ## This prototype has confirmed to NOT BE WORKING. Do NOT use the files in this directory and subdirectories for production or reference.
 
-`custom_keyboard (f303).pro` is the project that was exported for production. 
+`custom_keyboard (f303).pro` is the project that was exported for production. This KiCad project was made using KiCad 5.1.10.
 
 ## Known issues:
 - Rotary encoders are off centered
