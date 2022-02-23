@@ -12,8 +12,11 @@ The PCB is designed to use Kailh Hot-swap sockets. The original specifications a
 ---
 
 [The layout on keyboard layout editor](http://www.keyboard-layout-editor.com/#/gists/689bc560553c37fa0d04dfba9f11ed96)
+
 [Prototype 2 PCB photos on @howardt12345](https://www.instagram.com/p/CYXeXJdg_eP/)
+
 [Details on my keyboard website](https://kb.ht12345.xyz/0)
+
 [QMK Fork](https://github.com/howardt12345/qmk_firmware/tree/ht12345/keyboard0/keyboards/ht12345/keyboard0)
 
 ---
