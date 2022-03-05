@@ -1,4 +1,4 @@
-20435031964505263
+20438329041422757
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -86989,6 +86989,13 @@ MXOnly-1U-Hotswap-Antishear
 10
 2
 custom-footprints
+RollerEncoder_Panasonic_EVQWGD001
+
+
+0
+6
+6
+custom-footprints
 SKQG-1155865
 
 
@@ -87005,6 +87012,13 @@ YS-SK6812MINI-E
 custom-footprints
 logo
 Converted using: svg2mod -i Untitled-1.svg -o ./custom-footprints.pretty/logo -f 1 --name logo
+svg2mod
+0
+0
+0
+custom-footprints
+logo_small
+Converted using: svg2mod -i Untitled-1.svg -o ./custom-footprints.pretty/logo_small -f 0.5 --name logo_small
 svg2mod
 0
 0
