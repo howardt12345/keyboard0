@@ -1,4 +1,4 @@
-57406929643002
+59059282923998
 custom-footprints
 24LC04
 
@@ -202,6 +202,13 @@ MXOnly-1U-Hotswap-Antishear
 0
 10
 2
+custom-footprints
+RollerEncoder_Panasonic_EVQWGD001
+
+
+0
+6
+6
 custom-footprints
 SKQG-1155865
 
