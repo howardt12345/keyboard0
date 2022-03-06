@@ -129,7 +129,7 @@
       (mirror false)
       (drillshape 0)
       (scaleselection 1)
-      (outputdirectory "2nd prototype/Gerber/")
+      (outputdirectory "Gerber/Plate v3/Bottom/")
     )
   )
 
