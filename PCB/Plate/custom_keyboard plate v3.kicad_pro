@@ -168,7 +168,7 @@
       "idf": "",
       "netlist": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "custom_keyboard plate v3.step",
       "vrml": ""
     },
     "page_layout_descr_file": ""
