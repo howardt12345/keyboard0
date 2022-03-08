@@ -1,12 +1,12 @@
 %TF.GenerationSoftware,KiCad,Pcbnew,(6.0.0)*%
-%TF.CreationDate,2022-03-06T22:42:27-05:00*%
+%TF.CreationDate,2022-03-07T23:27:40-05:00*%
 %TF.ProjectId,custom_keyboard plate v3 bottom - map,63757374-6f6d-45f6-9b65-79626f617264,rev?*%
 %TF.SameCoordinates,Original*%
 %TF.FileFunction,Soldermask,Top*%
 %TF.FilePolarity,Negative*%
 %FSLAX46Y46*%
 G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
-G04 Created by KiCad (PCBNEW (6.0.0)) date 2022-03-06 22:42:27*
+G04 Created by KiCad (PCBNEW (6.0.0)) date 2022-03-07 23:27:40*
 %MOMM*%
 %LPD*%
 G01*
