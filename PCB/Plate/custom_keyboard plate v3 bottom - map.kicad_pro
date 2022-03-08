@@ -160,8 +160,8 @@
       "idf": "",
       "netlist": "",
       "specctra_dsn": "",
-      "step": "",
-      "vrml": ""
+      "step": "custom_keyboard plate v3 bottom - map.step",
+      "vrml": "v3/custom_keyboard plate v3 bottom - map.wrl"
     },
     "page_layout_descr_file": ""
   },

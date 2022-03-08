@@ -1,1 +1,260 @@
+60704006560496
+custom-footprints
+24LC04
+
+
+0
+8
+8
+custom-footprints
+CherryMX_1.00u_PCB_KailhSocket
+Cherry MX switch footprint. Size: 1.00u, Mount type: PCB, Using Kailh Socket: yes, Stabilizer: n/a, Lighting: none
+CherryMX 1.00u PCB KailhSocket
+0
+10
+2
+custom-footprints
+CherryMX_1.00u_PCB_KailhSocket_LTST-A683CEGBW
+Cherry MX switch footprint. Size: 1.00u, Mount type: PCB, Using Kailh Socket: yes, Stabilizer: n/a, Lighting: LTST-A683CEGBW
+CherryMX 1.00u PCB KailhSocket LTST-A683CEGBW
+0
+6
+6
+custom-footprints
+CherryMX_1.25u_PCB_KailhSocket
+Cherry MX switch footprint. Size: 1.25u, Mount type: PCB, Using Kailh Socket: yes, Stabilizer: n/a, Lighting: none
+CherryMX 1.25u PCB KailhSocket
+0
+10
+2
+custom-footprints
+CherryMX_1.25u_PCB_KailhSocket_LTST-A683CEGBW
+Cherry MX switch footprint. Size: 1.25u, Mount type: PCB, Using Kailh Socket: yes, Stabilizer: n/a, Lighting: LTST-A683CEGBW
+CherryMX 1.25u PCB KailhSocket LTST-A683CEGBW
+0
+6
+6
+custom-footprints
+CherryMX_1.50u_PCB_KailhSocket
+Cherry MX switch footprint. Size: 1.50u, Mount type: PCB, Using Kailh Socket: yes, Stabilizer: n/a, Lighting: none
+CherryMX 1.50u PCB KailhSocket
+0
+10
+2
+custom-footprints
+CherryMX_1.50u_PCB_KailhSocket_LTST-A683CEGBW
+Cherry MX switch footprint. Size: 1.50u, Mount type: PCB, Using Kailh Socket: yes, Stabilizer: n/a, Lighting: LTST-A683CEGBW
+CherryMX 1.50u PCB KailhSocket LTST-A683CEGBW
+0
+6
+6
+custom-footprints
+CherryMX_1.75u_PCB_KailhSocket
+Cherry MX switch footprint. Size: 1.75u, Mount type: PCB, Using Kailh Socket: yes, Stabilizer: n/a, Lighting: none
+CherryMX 1.75u PCB KailhSocket
+0
+10
+2
+custom-footprints
+CherryMX_1.75u_PCB_KailhSocket_LTST-A683CEGBW
+Cherry MX switch footprint. Size: 1.75u, Mount type: PCB, Using Kailh Socket: yes, Stabilizer: n/a, Lighting: LTST-A683CEGBW
+CherryMX 1.75u PCB KailhSocket LTST-A683CEGBW
+0
+6
+6
+custom-footprints
+CherryMX_2.00u_PCB_KailhSocket_LTST-A683CEGBW
+Cherry MX switch footprint. Size: 2.00u, Mount type: PCB, Using Kailh Socket: yes, Stabilizer: Plate mounted, Lighting: LTST-A683CEGBW
+CherryMX 2.00u PCB KailhSocket LTST-A683CEGBW
+0
+6
+6
+custom-footprints
+CherryMX_2.00u_PCB_KailhSocket_StabWireBottom
+Cherry MX switch footprint. Size: 2.00u, Mount type: PCB, Using Kailh Socket: yes, Stabilizer: PCB mounted (Wire Bottom), Lighting: none
+CherryMX 2.00u PCB KailhSocket StabWireBottom
+0
+10
+2
+custom-footprints
+CherryMX_2.25u_PCB_KailhSocket_LTST-A683CEGBW
+Cherry MX switch footprint. Size: 2.25u, Mount type: PCB, Using Kailh Socket: yes, Stabilizer: Plate mounted, Lighting: LTST-A683CEGBW
+CherryMX 2.25u PCB KailhSocket LTST-A683CEGBW
+0
+6
+6
+custom-footprints
+CherryMX_2.25u_PCB_KailhSocket_StabWireBottom
+Cherry MX switch footprint. Size: 2.25u, Mount type: PCB, Using Kailh Socket: yes, Stabilizer: PCB mounted (Wire Bottom), Lighting: none
+CherryMX 2.25u PCB KailhSocket StabWireBottom
+0
+10
+2
+custom-footprints
+CherryMX_2.25u_PCB_KailhSocket_StabWireTop
+Cherry MX switch footprint. Size: 2.25u, Mount type: PCB, Using Kailh Socket: yes, Stabilizer: PCB mounted (Wire Bottom), Lighting: none
+CherryMX 2.25u PCB KailhSocket StabWireBottom
+0
+10
+2
+custom-footprints
+CherryMX_2.50u_PCB_KailhSocket_StabWireBottom
+Cherry MX switch footprint. Size: 2.50u, Mount type: PCB, Using Kailh Socket: yes, Stabilizer: PCB mounted (Wire Bottom), Lighting: none
+CherryMX 2.50u PCB KailhSocket StabWireBottom
+0
+10
+2
+custom-footprints
+CherryMX_2.75u_PCB_KailhSocket_LTST-A683CEGBW
+Cherry MX switch footprint. Size: 2.75u, Mount type: PCB, Using Kailh Socket: yes, Stabilizer: Plate mounted, Lighting: LTST-A683CEGBW
+CherryMX 2.75u PCB KailhSocket LTST-A683CEGBW
+0
+6
+6
+custom-footprints
+CherryMX_2.75u_PCB_KailhSocket_StabWireBottom
+Cherry MX switch footprint. Size: 2.75u, Mount type: PCB, Using Kailh Socket: yes, Stabilizer: PCB mounted (Wire Bottom), Lighting: none
+CherryMX 2.75u PCB KailhSocket StabWireBottom
+0
+10
+2
+custom-footprints
+CherryMX_3.00u_PCB_KailhSocket_LTST-A683CEGBW
+Cherry MX switch footprint. Size: 3.00u, Mount type: PCB, Using Kailh Socket: yes, Stabilizer: Plate mounted, Lighting: LTST-A683CEGBW
+CherryMX 3.00u PCB KailhSocket LTST-A683CEGBW
+0
+10
+2
+custom-footprints
+CherryMX_6.00u_PCB_KailhSocket_LTST-A683CEGBW
+Cherry MX switch footprint. Size: 6.00u, Mount type: PCB, Using Kailh Socket: yes, Stabilizer: Plate mounted, Lighting: LTST-A683CEGBW
+CherryMX 6.00u PCB KailhSocket LTST-A683CEGBW
+0
+10
+2
+custom-footprints
+CherryMX_6.25u_PCB_KailhSocket_LTST-A683CEGBW
+Cherry MX switch footprint. Size: 6.25u, Mount type: PCB, Using Kailh Socket: yes, Stabilizer: Plate mounted, Lighting: LTST-A683CEGBW
+CherryMX 6.25u PCB KailhSocket LTST-A683CEGBW
+0
+6
+6
+custom-footprints
+CherryMX_6.25u_PCB_KailhSocket_StabWireBottom
+Cherry MX switch footprint. Size: 6.25u, Mount type: PCB, Using Kailh Socket: yes, Stabilizer: PCB mounted (Wire Bottom), Lighting: none
+CherryMX 6.25u PCB KailhSocket StabWireBottom
+0
+10
+2
+custom-footprints
+CherryMX_6.25u_PCB_KailhSocket_StabWireTop
+Cherry MX switch footprint. Size: 6.25u, Mount type: PCB, Using Kailh Socket: yes, Stabilizer: PCB mounted (Wire Bottom), Lighting: none
+CherryMX 6.25u PCB KailhSocket StabWireBottom
+0
+10
+2
+custom-footprints
+EVQWGD001
+
+
+0
+6
+6
+custom-footprints
+FE2.1
+
+
+0
+48
+48
+custom-footprints
+JST-SR-4
+
+
+0
+6
+5
+custom-footprints
+MHT151RGBCT
+
+
+0
+4
+4
+custom-footprints
+MHT151RGBCT_with_outline
+
+
+0
+4
+4
+custom-footprints
+MIC2505
+
+
+0
+8
+8
+custom-footprints
+MXOnly-1U-Hotswap-Antishear
+
+
+0
+10
+2
+custom-footprints
+RollerEncoder_Panasonic_EVQWGD001
+
+
+0
+6
+6
+custom-footprints
+SKQG-1155865
+
+
+0
+4
+2
+custom-footprints
+YS-SK6812MINI-E
+
+
+0
+4
+4
+custom-footprints
+logo
+Converted using: svg2mod -i Untitled-1.svg -o ./custom-footprints.pretty/logo -f 1 --name logo
+svg2mod
+0
+0
+0
+custom-footprints
+logo_small
+Converted using: svg2mod -i Untitled-1.svg -o ./custom-footprints.pretty/logo_small -f 0.5 --name logo_small
+svg2mod
+0
+0
+0
+custom-footprints
+qmk
+
+
+0
+0
+0
+custom-footprints
+qmk_logo
+
+
+0
+0
+0
+custom-footprints
+vial_logo
+
+
+0
+0
 0
