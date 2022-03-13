@@ -9,3 +9,4 @@ The middle parts of the "v3" case. Designed to be used with the [plate v3](../..
 ![photo3](../../Photos/v3_case/v3-3.png)
 ![photo4](../../Photos/v3_case/v3-4.png)
 ![photo5](../../Photos/v3_case/v3-5.png)
+![photo6](../../Photos/v3_case/v3-6.png)
